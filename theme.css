@@ -18,6 +18,8 @@ body::before {
 header { border-color: #82817c44; background: #10121566; }
 .brand { color: #e6ded2; }
 .download { color: #e1c9aa; }
+.music-navigation { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; font-size: 13px; }
+.music-navigation a { color: #e1c9aa; text-underline-offset: 5px; }
 .intro { padding: 65px 0 45px; }
 .eyebrow { color: #d4c1aa; text-shadow: 0 2px 8px #000; }
 h1 {
@@ -76,6 +78,8 @@ dialog::backdrop { background: #050709c9; }
 .close { background: #15181c; }
 footer { background: #101215dd; color: #beb7ac; }
 @media(max-width:700px) {
+  header { gap: 20px; align-items: flex-start; }
+  .music-navigation { gap: 12px; justify-content: flex-end; text-align: right; }
   .intro { padding: 38px 0 30px; }
   h1 { letter-spacing: -1px; font-size: clamp(36px, 7.8vw, 52px); }
   .toolbar, .filters { padding: 12px; }
