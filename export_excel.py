@@ -31,7 +31,7 @@ def main():
     summary['B2'] = 'CH—D  /  МУЗЫКАЛЬНЫЙ АРХИВ'
     summary['B2'].font = Font(size=24, bold=True, color='FFFFFF')
     summary['B2'].fill = PatternFill('solid', fgColor=NAVY)
-    metrics = [('Всего треков', len(rows)), ('Со ссылками YouTube', sum(bool(r['youtube_url']) for r in rows)),
+    metrics = [('Всего треков', len(rows)), ('Со ссылками на прослушивание', sum(any(r.get(k) for k in ('audius_url', 'youtube_url', 'drive_url')) for r in rows)),
                ('Со встроенной обложкой', sum(bool(r['cover_path']) for r in rows)),
                ('Без встроенной обложки', sum(not r['cover_path'] for r in rows)),
                ('С текстом песни', sum(bool(r['lyrics']) for r in rows))]
@@ -54,7 +54,7 @@ def main():
     columns = [('ID', 'id', 15), ('Название', 'title_draft', 42), ('Исполнитель', 'artist_draft', 28),
                ('Персонажи', 'characters', 28), ('Предметы', 'items', 26), ('Именные животные', 'named_animals', 25),
                ('Жанр', 'genre', 25), ('Язык', 'language', 16), ('YouTube', 'youtube_url', 40),
-               ('Google Drive', 'drive_url', 35), ('Длительность', '_time', 17),
+               ('Google Drive', 'drive_url', 35), ('Audius', 'audius_url', 45), ('Длительность', '_time', 17),
                ('Обложка', '_cover', 25), ('Альбом', 'metadata_album', 28), ('Примечания', 'notes', 45),
                ('Исходный файл', 'file', 48)]
 
@@ -92,7 +92,7 @@ def main():
                     literal(c, value)
                 c.font = Font(size=11, color=NAVY)
                 c.alignment = Alignment(vertical='top', wrap_text=True)
-                if key in ('youtube_url', 'drive_url'):
+                if key in ('youtube_url', 'drive_url', 'audius_url'):
                     if value.startswith(('https://', 'http://')):
                         c.hyperlink = value
                         c.font = Font(color='146CB4', underline='single')
@@ -125,7 +125,12 @@ def main():
     summary['B21'].hyperlink = "#'Треки'!A1"
     summary['B21'].font = Font(size=14, bold=True, color=GREEN)
     path = ROOT/'Ch-D_music_catalog.xlsx'
-    wb.save(path)
+    try:
+        wb.save(path)
+    except PermissionError:
+        path = ROOT/'Ch-D_music_catalog_updated.xlsx'
+        wb.save(path)
+        print('Original workbook is open; saved Ch-D_music_catalog_updated.xlsx')
     check = load_workbook(path)
     assert check['Треки'].max_row == len(rows)+5
     assert len(check['Треки'].tables) == 1
