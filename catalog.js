@@ -9,7 +9,8 @@ const genres=r=>split(r.genre||r.metadata_genre);
 const tags=r=>['characters','items','named_animals'].flatMap(k=>split(r[k]));
 const normalize=s=>String(s||'').toLocaleLowerCase('ru').replaceAll('ё','е');
 const time=n=>Number(n)>0?`${Math.floor(n/60)}:${String(Math.floor(n%60)).padStart(2,'0')}`:'—';
-function el(tag,text,cls){const x=document.createElement(tag);if(text!==undefined)x.textContent=text;if(cls)x.className=cls;return x;}
+const cultName=text=>String(text).replace(/(Ч[её]рн(?:ая|ой|ую|ою)\s+)длан(ь|и|ью)(?=$|[^а-яё])/gu,'$1Длан$2');
+function el(tag,text,cls){const x=document.createElement(tag);if(text!==undefined)x.textContent=cultName(text);if(cls)x.className=cls;return x;}
 function fill(id,values){[...new Set(values)].sort((a,b)=>a.localeCompare(b,'ru')).forEach(v=>{const o=el('option',v);o.value=v;$(id).append(o);});}
 fill('artist',rows.map(artist));fill('genre',rows.flatMap(genres));fill('tag',rows.flatMap(tags));
 for(const [n,label] of [[rows.length,'треков'],[rows.filter(r=>r.cover_path).length,'обложки'],[new Set(rows.map(artist).filter(x=>x!=='Исполнитель не указан')).size,'исполнителей']]){const box=el('div');box.append(el('strong',n),document.createTextNode(label));$('stats').append(box);}

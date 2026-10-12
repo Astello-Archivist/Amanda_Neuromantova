@@ -88,3 +88,9 @@ footer { background: #101215dd; color: #beb7ac; }
 @media(forced-colors:active) {
   .golden { -webkit-text-fill-color: CanvasText; -webkit-text-stroke: 0; filter: none; }
 }
+
+/* Cult heraldry in the music catalog. */
+header .brand { display: flex; align-items: center; gap: 12px; }
+header .brand .music-crest { width: 64px; height: 64px; object-fit: contain; }
+header .brand span { letter-spacing: 0; font-size: 16px; }
+@media(max-width:700px) { header { flex-wrap: wrap; } .music-navigation { justify-content: flex-start; text-align: left; } }
