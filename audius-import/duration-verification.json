@@ -1,0 +1,77 @@
+[
+  {
+    "id": "CHD-0006",
+    "file": "Bring Me The Execute- Прокачка.mp3",
+    "catalog_seconds": "187.53",
+    "exit_code": 0,
+    "decoded_seconds": 182.787483,
+    "error": "",
+    "audius": [
+      {
+        "id": "ygyl6Gw",
+        "duration": 182,
+        "orig_cid": "baeaaaiqsecofnbtraejlzpqvonkphvgrpvlcfqikhlidayhkvsxgdbuhoww5y"
+      }
+    ]
+  },
+  {
+    "id": "CHD-0102",
+    "file": "Вар - Прокачка.mp3",
+    "catalog_seconds": "187.53",
+    "exit_code": 0,
+    "decoded_seconds": 182.787483,
+    "error": "",
+    "audius": [
+      {
+        "id": "XBwJ9Ab",
+        "duration": 182,
+        "orig_cid": "baeaaaiqsecofnbtraejlzpqvonkphvgrpvlcfqikhlidayhkvsxgdbuhoww5y"
+      }
+    ]
+  },
+  {
+    "id": "CHD-0133",
+    "file": "Неделя чистоты - Ария Дерьмадемона.mp3",
+    "catalog_seconds": "216.92",
+    "exit_code": 0,
+    "decoded_seconds": 211.440907,
+    "error": "",
+    "audius": [
+      {
+        "id": "W0XpoAB",
+        "duration": 211,
+        "orig_cid": "baeaaaiqsectjte6keydppttjlnn3isvtbyyvonk5ws4ywkby62mar2cupch7u"
+      }
+    ]
+  },
+  {
+    "id": "CHD-0134",
+    "file": "Неделя чистоты - Клятва рыцарей.mp3",
+    "catalog_seconds": "216.31",
+    "exit_code": 0,
+    "decoded_seconds": 210.837188,
+    "error": "",
+    "audius": [
+      {
+        "id": "wPYxwk1",
+        "duration": 210,
+        "orig_cid": "baeaaaiqseanmmqxmnsdgbznaawpfijnlnc2shlw2m3h62yfoyroppvi34f55g"
+      }
+    ]
+  },
+  {
+    "id": "CHD-0148",
+    "file": "Рабочий СаС - Исповедь Рабаса.mp3",
+    "catalog_seconds": "223.35",
+    "exit_code": 0,
+    "decoded_seconds": 217.710295,
+    "error": "",
+    "audius": [
+      {
+        "id": "vJBXAWz",
+        "duration": 217,
+        "orig_cid": "baeaaaiqseb4obnc3dfu2ozyywyyza6fit434k7reqzbbmjykpdbwskwv75dyw"
+      }
+    ]
+  }
+]
