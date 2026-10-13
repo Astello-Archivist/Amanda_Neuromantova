@@ -8,22 +8,24 @@
       "handle": "durachok",
       "url": "https://audius.co/durachok",
       "public_tracks": 102,
-      "selected_links": 102
+      "selected_links": 0
     },
     {
       "handle": "astello",
       "url": "https://audius.co/astello",
       "public_tracks": 217,
-      "selected_links": 64
+      "selected_links": 166
     }
   ],
   "catalog_tracks": 166,
   "audius_tracks": 319,
-  "checked_at": "2026-10-13T21:17:07.877985+03:00",
+  "checked_at": "2026-10-13T21:31:02.890590+03:00",
   "duration_tolerance_seconds": 1.1,
   "applied": true,
-  "added_links": 64,
-  "already_linked": 102,
+  "added_links": 0,
+  "replaced_links": 102,
+  "preferred_profile": "astello",
+  "already_linked": 64,
   "catalog_audius_links": 166,
   "confident_matches": 166,
   "review_count": 0,
@@ -116,7 +118,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.8,
       "original_file_cid": "baeaaaiqsedcwq3ij4pygp3yrpidkvpmbct5bckbqgl4x5ztp45fxqr5yhpwfg",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "dENkQEP",
@@ -135,7 +137,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqsecwszbsqpehwakh5u3ifdrft337rhursnmvmyd2nnsgev4ku7govs",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "8O50qJO",
@@ -154,7 +156,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.25,
       "original_file_cid": "baeaaaiqsed35ycjrdmfwua6qnwil4cdlhoshskonwxipuxlhvczgdqsw4yteo",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "3RMEQ5q",
@@ -173,7 +175,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqsedtm53swphazd2ll55ircj2iyk2f75nuritcpb2iggbeicucwpj32",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "bQQVjMW",
@@ -192,7 +194,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.0,
       "original_file_cid": "baeaaaiqsed7yqfe2iljuyzjgdlpfxedfgmiw75y2kypb77gzyzy2prgzlvhd2",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "NPRyMMY",
@@ -215,7 +217,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.787483,
       "original_file_cid": "baeaaaiqsecofnbtraejlzpqvonkphvgrpvlcfqikhlidayhkvsxgdbuhoww5y",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "ygyl6Gw",
@@ -234,7 +236,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.18,
       "original_file_cid": "baeaaaiqseb2twt44evaqyc4j73wkvao7qt5apfctx6kpwb7w45aoyz6gjdf5c",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "9P8Yra2",
@@ -253,7 +255,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.03,
       "original_file_cid": "baeaaaiqsecmygt2sw3jw5n5zkeeyfzfgrrfy7y75lan432f3kri6ry5bijcus",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "jN1AYp1",
@@ -276,7 +278,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.98,
       "original_file_cid": "baeaaaiqsecm6mhfwr7jivqkuul35h74zzo4sd5kg3foy3w6e2dlhjkti4o24q",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "dlaPXR0",
@@ -299,7 +301,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.64,
       "original_file_cid": "baeaaaiqsebcacodhb6bcqx5fju5hwclizdp32zdxuq6xfc63yciydgvuvkzbg",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "91OXxjM",
@@ -315,19 +317,15 @@
       "catalog_id": "CHD-0011",
       "catalog_file": "Cript (COVER DEN) (1).mp3",
       "catalog_seconds": 240.05,
-      "audius_id": "aArzyjE",
+      "audius_id": "bdzb6BX",
       "audius_title": "Cript (COVER DEN) (1)",
       "audius_seconds": 240,
-      "audius_url": "https://audius.co/Durachok/cript-cover-den-1",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/cript-cover-den-1",
+      "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqsebi4cngp7x7lsrmtxdo6fvarxqqxlby4mzt64e3nrdm3hrz4dgsig",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "aArzyjE",
-          "url": "https://audius.co/Durachok/cript-cover-den-1"
-        },
         {
           "id": "bdzb6BX",
           "url": "https://audius.co/Astello/cript-cover-den-1"
@@ -338,19 +336,15 @@
       "catalog_id": "CHD-0012",
       "catalog_file": "Cryptonit – Проклятие Крипты.mp3",
       "catalog_seconds": 216.7,
-      "audius_id": "dp2mvym",
+      "audius_id": "8PRRyyJ",
       "audius_title": "Cryptonit – Проклятие Крипты",
       "audius_seconds": 216,
-      "audius_url": "https://audius.co/Durachok/cryptonit-–-проклятие-крипты",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/cryptonit-–-проклятие-крипты",
+      "source_handle": "astello",
       "delta_seconds": 0.7,
       "original_file_cid": "baeaaaiqseb2f5tqr6dtfo52ddzexouzkatqqyem6p2ifjwijqn5gj6btt2q7c",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "dp2mvym",
-          "url": "https://audius.co/Durachok/cryptonit-–-проклятие-крипты"
-        },
         {
           "id": "8PRRyyJ",
           "url": "https://audius.co/Astello/cryptonit-–-проклятие-крипты"
@@ -361,19 +355,15 @@
       "catalog_id": "CHD-0013",
       "catalog_file": "Digital Fury.m4a",
       "catalog_seconds": 227.51,
-      "audius_id": "plREEyX",
+      "audius_id": "B2dJxkJ",
       "audius_title": "Digital Fury",
       "audius_seconds": 227,
-      "audius_url": "https://audius.co/Durachok/digital-fury",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/digital-fury",
+      "source_handle": "astello",
       "delta_seconds": 0.51,
       "original_file_cid": "baeaaaiqsech32rhzrf53e3nf4nqet2wu264plozlgrc2fkre45xfr37xcwwxi",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "plREEyX",
-          "url": "https://audius.co/Durachok/digital-fury"
-        },
         {
           "id": "B2dJxkJ",
           "url": "https://audius.co/Astello/digital-fury"
@@ -384,19 +374,15 @@
       "catalog_id": "CHD-0014",
       "catalog_file": "DOMINUS AGONETTI - Rivendare.mp3",
       "catalog_seconds": 332.04,
-      "audius_id": "z95mdJp",
+      "audius_id": "xz5Z4az",
       "audius_title": "DOMINUS AGONETTI - Rivendare",
       "audius_seconds": 332,
-      "audius_url": "https://audius.co/Durachok/dominus-agonetti-rivendare",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/dominus-agonetti-rivendare",
+      "source_handle": "astello",
       "delta_seconds": 0.04,
       "original_file_cid": "baeaaaiqsecwxy4supq6tv5ff5c2ftz2tvsin4yhsduqf3cooscz6f6zxjg2xe",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "z95mdJp",
-          "url": "https://audius.co/Durachok/dominus-agonetti-rivendare"
-        },
         {
           "id": "gvxmjRx",
           "url": "https://audius.co/Astello/dominus-agonetti-rivendare-1"
@@ -411,19 +397,15 @@
       "catalog_id": "CHD-0015",
       "catalog_file": "Dominus Agonetti — Opera Sessions_ Part I. Praeludium in Ruinis Stratholmi. Baro Tenebrosus.mp3",
       "catalog_seconds": 281.83,
-      "audius_id": "Z3xmmq",
+      "audius_id": "KzWJlGz",
       "audius_title": "Dominus Agonetti — Opera Sessions_ Part I. Praeludium in Ruinis Stratholmi. Baro Tenebrosus",
       "audius_seconds": 281,
-      "audius_url": "https://audius.co/Durachok/dominus-agonetti-—-opera-sessions_-part-i-praeludium-in-ruinis-stratholmi-baro-tenebrosus",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/dominus-agonetti-—-opera-sessions_-part-i-praeludium-in-ruinis-stratholmi-baro-tenebrosus",
+      "source_handle": "astello",
       "delta_seconds": 0.83,
       "original_file_cid": "baeaaaiqsebrkeb73pnmcunmqi4sglgy3ktvf2dop32yujjbbksbmg32wder5e",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "Z3xmmq",
-          "url": "https://audius.co/Durachok/dominus-agonetti-—-opera-sessions_-part-i-praeludium-in-ruinis-stratholmi-baro-tenebrosus"
-        },
         {
           "id": "KzWJlGz",
           "url": "https://audius.co/Astello/dominus-agonetti-—-opera-sessions_-part-i-praeludium-in-ruinis-stratholmi-baro-tenebrosus"
@@ -434,19 +416,15 @@
       "catalog_id": "CHD-0016",
       "catalog_file": "Dominus Agonetti — Opera Sessions_ Part II. Duetus in Ruinis Stratholmi. Aria Rivendari et Isidis.mp3",
       "catalog_seconds": 272.4,
-      "audius_id": "EGwlzoJ",
+      "audius_id": "Q60ER0B",
       "audius_title": "Dominus Agonetti — Opera Sessions_ Part II. Duetus in Ruinis Stratholmi. Aria Rivendari et Isidis",
       "audius_seconds": 272,
-      "audius_url": "https://audius.co/Durachok/dominus-agonetti-—-opera-sessions_-part-ii-duetus-in-ruinis-stratholmi-aria-rivendari-et-isidis",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/dominus-agonetti-—-opera-sessions_-part-ii-duetus-in-ruinis-stratholmi-aria-rivendari-et-isidis",
+      "source_handle": "astello",
       "delta_seconds": 0.4,
       "original_file_cid": "baeaaaiqsec2uwsripthflehw3ebshz37jiqqs6wbjai57ytfycizhr3i33scc",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "EGwlzoJ",
-          "url": "https://audius.co/Durachok/dominus-agonetti-—-opera-sessions_-part-ii-duetus-in-ruinis-stratholmi-aria-rivendari-et-isidis"
-        },
         {
           "id": "gY0Br5d",
           "url": "https://audius.co/Astello/dominus-agonetti-—-opera-sessions_-part-ii-duetus-in-ruinis-stratholmi-aria-rivendari-et-isidis-1"
@@ -461,19 +439,15 @@
       "catalog_id": "CHD-0017",
       "catalog_file": "Edovu~aruhaindo - Fujōnaru te no Kayō.mp3",
       "catalog_seconds": 240.05,
-      "audius_id": "OxQ4xRV",
+      "audius_id": "5zVYP9V",
       "audius_title": "Edovu~aruhaindo - Fujōnaru te no Kayō",
       "audius_seconds": 240,
-      "audius_url": "https://audius.co/Durachok/edovuaruhaindo-fujōnaru-te-no-kayō",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/edovuaruhaindo-fujōnaru-te-no-kayō",
+      "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqseba3ayvvx4ncoxg4yo37wqafsg6cyc3gi4mxmmc5vxclcgrmnuulm",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "OxQ4xRV",
-          "url": "https://audius.co/Durachok/edovuaruhaindo-fujōnaru-te-no-kayō"
-        },
         {
           "id": "5zVYP9V",
           "url": "https://audius.co/Astello/edovuaruhaindo-fujōnaru-te-no-kayō"
@@ -484,19 +458,15 @@
       "catalog_id": "CHD-0018",
       "catalog_file": "FakMod - Sirus.mp3",
       "catalog_seconds": 155.59,
-      "audius_id": "aadAwra",
+      "audius_id": "lpAxZ1N",
       "audius_title": "FakMod - Sirus",
       "audius_seconds": 155,
-      "audius_url": "https://audius.co/Durachok/fakmod-sirus",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/fakmod-sirus",
+      "source_handle": "astello",
       "delta_seconds": 0.59,
       "original_file_cid": "baeaaaiqsedzlkkxboxktbprft5f7d4dhthfrsqdcdjlvfswjpnfg7wo7r3wdk",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "aadAwra",
-          "url": "https://audius.co/Durachok/fakmod-sirus"
-        },
         {
           "id": "lpAxZ1N",
           "url": "https://audius.co/Astello/fakmod-sirus"
@@ -507,19 +477,15 @@
       "catalog_id": "CHD-0019",
       "catalog_file": "Fordring - О, Король.mp3",
       "catalog_seconds": 138.77,
-      "audius_id": "lZy6VKb",
+      "audius_id": "0OBl4V4",
       "audius_title": "Fordring - О, Король",
       "audius_seconds": 138,
-      "audius_url": "https://audius.co/Durachok/fordring-о-король",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/fordring-о-король",
+      "source_handle": "astello",
       "delta_seconds": 0.77,
       "original_file_cid": "baeaaaiqsecrhnwanljgtol7q5imfxrvqbo2yiy32nq63ochf3c7yman6biwmy",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "lZy6VKb",
-          "url": "https://audius.co/Durachok/fordring-о-король"
-        },
         {
           "id": "0OBl4V4",
           "url": "https://audius.co/Astello/fordring-о-король"
@@ -530,19 +496,15 @@
       "catalog_id": "CHD-0020",
       "catalog_file": "FuckMode - WoW Sirus.mp3",
       "catalog_seconds": 155.57,
-      "audius_id": "v7ZmAN8",
+      "audius_id": "dGw5BrM",
       "audius_title": "FuckMode - WoW Sirus",
       "audius_seconds": 155,
-      "audius_url": "https://audius.co/Durachok/fuckmode-wow-sirus",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/fuckmode-wow-sirus",
+      "source_handle": "astello",
       "delta_seconds": 0.57,
       "original_file_cid": "baeaaaiqseauzeod3ryfe6aumgfpy6futpxlx4k2yvgjtliocyxtvuuaqdcolc",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "v7ZmAN8",
-          "url": "https://audius.co/Durachok/fuckmode-wow-sirus"
-        },
         {
           "id": "dGw5BrM",
           "url": "https://audius.co/Astello/fuckmode-wow-sirus"
@@ -553,19 +515,15 @@
       "catalog_id": "CHD-0021",
       "catalog_file": "GREYWICK HILL - Мэрри Хоуп.mp3",
       "catalog_seconds": 289.57,
-      "audius_id": "lZNQ53O",
+      "audius_id": "Xl5Kxo7",
       "audius_title": "GREYWICK HILL - Мэрри Хоуп",
       "audius_seconds": 289,
-      "audius_url": "https://audius.co/Durachok/greywick-hill-мэрри-хоуп",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/greywick-hill-мэрри-хоуп",
+      "source_handle": "astello",
       "delta_seconds": 0.57,
       "original_file_cid": "baeaaaiqsebms4d3enstaf34wygeza3wt2n3fupyczcx475zmtmvnndk5ilwpy",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "lZNQ53O",
-          "url": "https://audius.co/Durachok/greywick-hill-мэрри-хоуп"
-        },
         {
           "id": "Xl5Kxo7",
           "url": "https://audius.co/Astello/greywick-hill-мэрри-хоуп"
@@ -576,19 +534,15 @@
       "catalog_id": "CHD-0022",
       "catalog_file": "Hastwood - Владыка Черного Алмаза.mp3",
       "catalog_seconds": 206.06,
-      "audius_id": "NPKZ4B0",
+      "audius_id": "pVYPQ6G",
       "audius_title": "Hastwood - Владыка Черного Алмаза",
       "audius_seconds": 206,
-      "audius_url": "https://audius.co/Durachok/hastwood-владыка-черного-алмаза",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/hastwood-владыка-черного-алмаза",
+      "source_handle": "astello",
       "delta_seconds": 0.06,
       "original_file_cid": "baeaaaiqseafm36jqp6tfxrc7ydiyyft563fmxqhyiql424npqc5a47fuwdvya",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "NPKZ4B0",
-          "url": "https://audius.co/Durachok/hastwood-владыка-черного-алмаза"
-        },
         {
           "id": "WQ25E99",
           "url": "https://audius.co/Astello/hastwood-владыка-черного-алмаза-1"
@@ -603,19 +557,15 @@
       "catalog_id": "CHD-0023",
       "catalog_file": "Hastwood - Ужас в Вандермаре.mp3",
       "catalog_seconds": 240.05,
-      "audius_id": "Pj2prZR",
+      "audius_id": "WYW5xb9",
       "audius_title": "Hastwood - Ужас в Вандермаре",
       "audius_seconds": 240,
-      "audius_url": "https://audius.co/Durachok/hastwood-ужас-в-вандермаре",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/hastwood-ужас-в-вандермаре",
+      "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqseawgzzkxylelekjqh4jhrwivj32jijlf3xwjioxnl25owo4bvi3ns",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "Pj2prZR",
-          "url": "https://audius.co/Durachok/hastwood-ужас-в-вандермаре"
-        },
         {
           "id": "WYW5xb9",
           "url": "https://audius.co/Astello/hastwood-ужас-в-вандермаре"
@@ -626,19 +576,15 @@
       "catalog_id": "CHD-0024",
       "catalog_file": "Heilung_-_Traust_(SkySound.cc).mp3",
       "catalog_seconds": 592.3,
-      "audius_id": "klEmm5K",
+      "audius_id": "g9ojB0d",
       "audius_title": "Heilung_-_Traust_(SkySound.cc)",
       "audius_seconds": 592,
-      "audius_url": "https://audius.co/Durachok/heilung_-_traust_skysoundcc",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/heilung_-_traust_skysoundcc",
+      "source_handle": "astello",
       "delta_seconds": 0.3,
       "original_file_cid": "baeaaaiqsedd7dtmuflnillvxb7qw26twsgreslowrl5q3g25itsdrarihmubm",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "klEmm5K",
-          "url": "https://audius.co/Durachok/heilung_-_traust_skysoundcc"
-        },
         {
           "id": "g9ojB0d",
           "url": "https://audius.co/Astello/heilung_-_traust_skysoundcc"
@@ -649,19 +595,15 @@
       "catalog_id": "CHD-0025",
       "catalog_file": "HESTIA - Discordiam sugere.mp3",
       "catalog_seconds": 145.49,
-      "audius_id": "8Y3Jxkl",
+      "audius_id": "5Q8X7PJ",
       "audius_title": "HESTIA - Discordiam sugere",
       "audius_seconds": 145,
-      "audius_url": "https://audius.co/Durachok/hestia-discordiam-sugere",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/hestia-discordiam-sugere",
+      "source_handle": "astello",
       "delta_seconds": 0.49,
       "original_file_cid": "baeaaaiqsecnd7fbdbb4qteduqhwdun277ktcd43ouil3d6hnfufmk25k5d4by",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "8Y3Jxkl",
-          "url": "https://audius.co/Durachok/hestia-discordiam-sugere"
-        },
         {
           "id": "5Q8X7PJ",
           "url": "https://audius.co/Astello/hestia-discordiam-sugere"
@@ -672,19 +614,15 @@
       "catalog_id": "CHD-0026",
       "catalog_file": "HOMABRUT - Три ночи.mp3",
       "catalog_seconds": 272.69,
-      "audius_id": "RKq96aZ",
+      "audius_id": "pGVkQQK",
       "audius_title": "HOMABRUT - Три ночи",
       "audius_seconds": 272,
-      "audius_url": "https://audius.co/Durachok/homabrut-три-ночи",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/homabrut-три-ночи",
+      "source_handle": "astello",
       "delta_seconds": 0.69,
       "original_file_cid": "baeaaaiqsebtpck2apiirquywb5xm76mglqlwkctm75g4tmput3uz3av6vdtbo",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "RKq96aZ",
-          "url": "https://audius.co/Durachok/homabrut-три-ночи"
-        },
         {
           "id": "pGVkQQK",
           "url": "https://audius.co/Astello/homabrut-три-ночи"
@@ -695,19 +633,15 @@
       "catalog_id": "CHD-0027",
       "catalog_file": "Kanye Brown -Прогрелись в котле.mp3",
       "catalog_seconds": 267.24,
-      "audius_id": "7O4GVbv",
+      "audius_id": "pkAxOvm",
       "audius_title": "Kanye Brown -Прогрелись в котле",
       "audius_seconds": 267,
-      "audius_url": "https://audius.co/Durachok/kanye-brown-прогрелись-в-котле",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/kanye-brown-прогрелись-в-котле",
+      "source_handle": "astello",
       "delta_seconds": 0.24,
       "original_file_cid": "baeaaaiqseadkfzvdzyycux54dtphqzgepijima6bpu2vbh4fftqkb6cq3n4la",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "7O4GVbv",
-          "url": "https://audius.co/Durachok/kanye-brown-прогрелись-в-котле"
-        },
         {
           "id": "y87bEoY",
           "url": "https://audius.co/Astello/kanye-brown-прогрелись-в-котле-1"
@@ -722,19 +656,15 @@
       "catalog_id": "CHD-0028",
       "catalog_file": "Kushnerit - Cursed Crypt.mp3",
       "catalog_seconds": 240.5,
-      "audius_id": "5j9z3B2",
+      "audius_id": "N6YwEqY",
       "audius_title": "Kushnerit - Cursed Crypt",
       "audius_seconds": 240,
-      "audius_url": "https://audius.co/Durachok/kushnerit-cursed-crypt",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/kushnerit-cursed-crypt",
+      "source_handle": "astello",
       "delta_seconds": 0.5,
       "original_file_cid": "baeaaaiqsecqmkcionezdwzxti3deu3usxq2frtzz55vo6dhm55dlufdiutcbs",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "5j9z3B2",
-          "url": "https://audius.co/Durachok/kushnerit-cursed-crypt"
-        },
         {
           "id": "N6YwEqY",
           "url": "https://audius.co/Astello/kushnerit-cursed-crypt"
@@ -745,19 +675,15 @@
       "catalog_id": "CHD-0029",
       "catalog_file": "Lightfair - Мор' Ладим.mp3",
       "catalog_seconds": 185.33,
-      "audius_id": "RNzNxkw",
+      "audius_id": "lWGqxOl",
       "audius_title": "Lightfair - Мор' Ладим",
       "audius_seconds": 185,
-      "audius_url": "https://audius.co/Durachok/lightfair-мор-ладим",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/lightfair-мор-ладим",
+      "source_handle": "astello",
       "delta_seconds": 0.33,
       "original_file_cid": "baeaaaiqseaj4gbjwcwkafi3oq66ziuwuzq6ktggwgt3dxr6jt67j6fs7leoc4",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "RNzNxkw",
-          "url": "https://audius.co/Durachok/lightfair-мор-ладим"
-        },
         {
           "id": "lWGqxOl",
           "url": "https://audius.co/Astello/lightfair-мор-ладим"
@@ -768,19 +694,15 @@
       "catalog_id": "CHD-0030",
       "catalog_file": "MORGENSHTERN X CHD - Саркофаг.mp3",
       "catalog_seconds": 178.85,
-      "audius_id": "j4yQokZ",
+      "audius_id": "7GYJBPP",
       "audius_title": "MORGENSHTERN X CHD - Саркофаг",
       "audius_seconds": 178,
-      "audius_url": "https://audius.co/Durachok/morgenshtern-x-chd-саркофаг",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/morgenshtern-x-chd-саркофаг",
+      "source_handle": "astello",
       "delta_seconds": 0.85,
       "original_file_cid": "baeaaaiqsed7bfjclpf2henzelgnlxbgicxdxqqqiq6aoeqhrxmnjicp2ro7dq",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "j4yQokZ",
-          "url": "https://audius.co/Durachok/morgenshtern-x-chd-саркофаг"
-        },
         {
           "id": "7GYJBPP",
           "url": "https://audius.co/Astello/morgenshtern-x-chd-саркофаг"
@@ -791,19 +713,15 @@
       "catalog_id": "CHD-0031",
       "catalog_file": "MrCrow - Блю-юр.mp3",
       "catalog_seconds": 185.06,
-      "audius_id": "REGVa6X",
+      "audius_id": "Rxp7Vzw",
       "audius_title": "MrCrow - Блю-юр",
       "audius_seconds": 185,
-      "audius_url": "https://audius.co/Durachok/mrcrow-блю-юр",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/mrcrow-блю-юр",
+      "source_handle": "astello",
       "delta_seconds": 0.06,
       "original_file_cid": "baeaaaiqsebwzb7ioy2hndz2ltstcsetartx7kja67glzwjptdkf4rqqmf4wmk",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "REGVa6X",
-          "url": "https://audius.co/Durachok/mrcrow-блю-юр"
-        },
         {
           "id": "Rxp7Vzw",
           "url": "https://audius.co/Astello/mrcrow-блю-юр"
@@ -814,19 +732,15 @@
       "catalog_id": "CHD-0032",
       "catalog_file": "NAGVAR - Жизнь хороша!.mp3",
       "catalog_seconds": 174.12,
-      "audius_id": "bpgBkdb",
+      "audius_id": "jzOBlaj",
       "audius_title": "NAGVAR - Жизнь хороша!",
       "audius_seconds": 174,
-      "audius_url": "https://audius.co/Durachok/nagvar-жизнь-хороша",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/nagvar-жизнь-хороша",
+      "source_handle": "astello",
       "delta_seconds": 0.12,
       "original_file_cid": "baeaaaiqsecrltc7upziizyy5njs6m6usmjaabjlvs3a3yes7rljyhsaun5o7g",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "bpgBkdb",
-          "url": "https://audius.co/Durachok/nagvar-жизнь-хороша"
-        },
         {
           "id": "NljvXw0",
           "url": "https://audius.co/Astello/nagvar-жизнь-хороша-1"
@@ -841,19 +755,15 @@
       "catalog_id": "CHD-0033",
       "catalog_file": "Nasramka - За калич Да.mp3",
       "catalog_seconds": 104.59,
-      "audius_id": "yK7loE",
+      "audius_id": "vO903v",
       "audius_title": "Nasramka - За калич Да",
       "audius_seconds": 104,
-      "audius_url": "https://audius.co/Durachok/nasramka-за-калич-да",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/nasramka-за-калич-да",
+      "source_handle": "astello",
       "delta_seconds": 0.59,
       "original_file_cid": "baeaaaiqsedgc4icuet77ig7omfktrxqpr6hmmjmacmlfdvpj5o4bhwfwzoong",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "yK7loE",
-          "url": "https://audius.co/Durachok/nasramka-за-калич-да"
-        },
         {
           "id": "Mpw6pJQ",
           "url": "https://audius.co/Astello/nasramka-за-калич-да-1"
@@ -868,19 +778,15 @@
       "catalog_id": "CHD-0034",
       "catalog_file": "Neizvesten_-_Podo_mnoj_penis_bolshoj_ochen_full_(SkySound.cc).mp3",
       "catalog_seconds": 135.74,
-      "audius_id": "3Oxbl3Z",
+      "audius_id": "E0wxRlR",
       "audius_title": "Neizvesten_-_Podo_mnoj_penis_bolshoj_ochen_full_(SkySound.cc)",
       "audius_seconds": 135,
-      "audius_url": "https://audius.co/Durachok/neizvesten_-_podo_mnoj_penis_bolshoj_ochen_full_skysoundcc",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neizvesten_-_podo_mnoj_penis_bolshoj_ochen_full_skysoundcc",
+      "source_handle": "astello",
       "delta_seconds": 0.74,
       "original_file_cid": "baeaaaiqsebjwsn2mrsasoq2bmyxls2xmghbto6g5lig3xvplr27z32a5z5v3y",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "3Oxbl3Z",
-          "url": "https://audius.co/Durachok/neizvesten_-_podo_mnoj_penis_bolshoj_ochen_full_skysoundcc"
-        },
         {
           "id": "E0wxRlR",
           "url": "https://audius.co/Astello/neizvesten_-_podo_mnoj_penis_bolshoj_ochen_full_skysoundcc"
@@ -891,19 +797,15 @@
       "catalog_id": "CHD-0035",
       "catalog_file": "Neoromant - О, Король.mp3",
       "catalog_seconds": 138.77,
-      "audius_id": "GbX6ww",
+      "audius_id": "AM19G0R",
       "audius_title": "Neoromant - О, Король",
       "audius_seconds": 138,
-      "audius_url": "https://audius.co/Durachok/neoromant-о-король",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neoromant-о-король",
+      "source_handle": "astello",
       "delta_seconds": 0.77,
       "original_file_cid": "baeaaaiqsecrhnwanljgtol7q5imfxrvqbo2yiy32nq63ochf3c7yman6biwmy",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "GbX6ww",
-          "url": "https://audius.co/Durachok/neoromant-о-король"
-        },
         {
           "id": "AM19G0R",
           "url": "https://audius.co/Astello/neoromant-о-король"
@@ -914,19 +816,15 @@
       "catalog_id": "CHD-0036",
       "catalog_file": "Neuromant -  Singularity.mp3",
       "catalog_seconds": 198.07,
-      "audius_id": "jb9NK90",
+      "audius_id": "jv0Poyo",
       "audius_title": "Neuromant -  Singularity",
       "audius_seconds": 198,
-      "audius_url": "https://audius.co/Durachok/neuromant-singularity",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-singularity",
+      "source_handle": "astello",
       "delta_seconds": 0.07,
       "original_file_cid": "baeaaaiqseb4oumefq67e56zkjjjocug6rhjtmvf6fzr3m2o7ucsicxpxhllla",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "jb9NK90",
-          "url": "https://audius.co/Durachok/neuromant-singularity"
-        },
         {
           "id": "6Qo4GE",
           "url": "https://audius.co/Astello/neuromant-singularity-2"
@@ -941,19 +839,15 @@
       "catalog_id": "CHD-0037",
       "catalog_file": "Neuromant - Agonito no kokoro.mp3",
       "catalog_seconds": 195.89,
-      "audius_id": "ExR8b84",
+      "audius_id": "vZ986aK",
       "audius_title": "Neuromant - Agonito no kokoro",
       "audius_seconds": 195,
-      "audius_url": "https://audius.co/Durachok/neuromant-agonito-no-kokoro",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-agonito-no-kokoro",
+      "source_handle": "astello",
       "delta_seconds": 0.89,
       "original_file_cid": "baeaaaiqsebnveodspkpx4aifc5m57yu2zsoxd3v45nwqvozuji5u5y36tbym6",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "ExR8b84",
-          "url": "https://audius.co/Durachok/neuromant-agonito-no-kokoro"
-        },
         {
           "id": "vZ986aK",
           "url": "https://audius.co/Astello/neuromant-agonito-no-kokoro"
@@ -964,19 +858,15 @@
       "catalog_id": "CHD-0038",
       "catalog_file": "Neuromant - Crypt.mp3",
       "catalog_seconds": 240.05,
-      "audius_id": "5QMboWX",
+      "audius_id": "5KBarg7",
       "audius_title": "Neuromant - Crypt",
       "audius_seconds": 240,
-      "audius_url": "https://audius.co/Durachok/neuromant-crypt",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-crypt",
+      "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqsedldu5pkbdvv3ehxbgiyu3gbqlcm2ajijv6mj6wkfcvwvraf7mdgg",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "5QMboWX",
-          "url": "https://audius.co/Durachok/neuromant-crypt"
-        },
         {
           "id": "5KBarg7",
           "url": "https://audius.co/Astello/neuromant-crypt"
@@ -987,19 +877,15 @@
       "catalog_id": "CHD-0039",
       "catalog_file": "Neuromant - Destiny.mp3",
       "catalog_seconds": 152.18,
-      "audius_id": "xN3YVy3",
+      "audius_id": "4AzG310",
       "audius_title": "Neuromant - Destiny",
       "audius_seconds": 152,
-      "audius_url": "https://audius.co/Durachok/neuromant-destiny",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-destiny",
+      "source_handle": "astello",
       "delta_seconds": 0.18,
       "original_file_cid": "baeaaaiqsebrcj3mx4ldk4je2hfy6zs3ds4rridsj3euvwkqykpa3fchxtwh3e",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "xN3YVy3",
-          "url": "https://audius.co/Durachok/neuromant-destiny"
-        },
         {
           "id": "4AzG310",
           "url": "https://audius.co/Astello/neuromant-destiny"
@@ -1010,19 +896,15 @@
       "catalog_id": "CHD-0040",
       "catalog_file": "Neuromant - For That Is Our Curse (Arseny Kotofeev).mp3",
       "catalog_seconds": 244.54,
-      "audius_id": "d9RV5Gv",
+      "audius_id": "KVvNRPz",
       "audius_title": "Neuromant - For That Is Our Curse (Arseny Kotofeev)",
       "audius_seconds": 244,
-      "audius_url": "https://audius.co/Durachok/neuromant-for-that-is-our-curse-arseny-kotofeev",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-for-that-is-our-curse-arseny-kotofeev",
+      "source_handle": "astello",
       "delta_seconds": 0.54,
       "original_file_cid": "baeaaaiqsedw6wbzpvkkwxrxslc2g2dtl3l6ccht6jgheezoonm7wybqszfm5w",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "d9RV5Gv",
-          "url": "https://audius.co/Durachok/neuromant-for-that-is-our-curse-arseny-kotofeev"
-        },
         {
           "id": "KVvNRPz",
           "url": "https://audius.co/Astello/neuromant-for-that-is-our-curse-arseny-kotofeev"
@@ -1033,19 +915,15 @@
       "catalog_id": "CHD-0041",
       "catalog_file": "Neuromant - Mikurunomicon.mp3",
       "catalog_seconds": 166.7,
-      "audius_id": "JGJw2p6",
+      "audius_id": "73pj95W",
       "audius_title": "Neuromant - Mikurunomicon",
       "audius_seconds": 166,
-      "audius_url": "https://audius.co/Durachok/neuromant-mikurunomicon",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-mikurunomicon",
+      "source_handle": "astello",
       "delta_seconds": 0.7,
       "original_file_cid": "baeaaaiqsed4vb6prvlhiqaj7hymsl565hityjvyexaimtt4ti2deaunqfpfc6",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "JGJw2p6",
-          "url": "https://audius.co/Durachok/neuromant-mikurunomicon"
-        },
         {
           "id": "73pj95W",
           "url": "https://audius.co/Astello/neuromant-mikurunomicon"
@@ -1056,19 +934,15 @@
       "catalog_id": "CHD-0042",
       "catalog_file": "Neuromant - Singularity.mp3",
       "catalog_seconds": 177.22,
-      "audius_id": "V50AAOQ",
+      "audius_id": "6Mk07xE",
       "audius_title": "Neuromant - Singularity",
       "audius_seconds": 177,
-      "audius_url": "https://audius.co/Durachok/neuromant-singularity-1",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-singularity-1",
+      "source_handle": "astello",
       "delta_seconds": 0.22,
       "original_file_cid": "baeaaaiqseaigvqx2dbfpa2oy3gj3wvihggrnah23lu5pq3rtjlf5ml7ew6ynq",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "V50AAOQ",
-          "url": "https://audius.co/Durachok/neuromant-singularity-1"
-        },
         {
           "id": "6Mk07xE",
           "url": "https://audius.co/Astello/neuromant-singularity-1"
@@ -1079,19 +953,15 @@
       "catalog_id": "CHD-0043",
       "catalog_file": "Neuromant - Артас, сын мой (v 2.0).mp3",
       "catalog_seconds": 144.02,
-      "audius_id": "NdZ99Z",
+      "audius_id": "BKojaY9",
       "audius_title": "Neuromant - Артас, сын мой (v 2.0)",
       "audius_seconds": 144,
-      "audius_url": "https://audius.co/Durachok/neuromant-артас-сын-мой-v-20",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-артас-сын-мой-v-20",
+      "source_handle": "astello",
       "delta_seconds": 0.02,
       "original_file_cid": "baeaaaiqsebdlbf5hxffecrjclxzivwflwu7ql2rtxarkineaewmhbyf4tp3dk",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "NdZ99Z",
-          "url": "https://audius.co/Durachok/neuromant-артас-сын-мой-v-20"
-        },
         {
           "id": "BKojaY9",
           "url": "https://audius.co/Astello/neuromant-артас-сын-мой-v-20"
@@ -1102,19 +972,15 @@
       "catalog_id": "CHD-0044",
       "catalog_file": "Neuromant - Артас, сын мой.mp3",
       "catalog_seconds": 140.14,
-      "audius_id": "8POp6g3",
+      "audius_id": "Mg8pa7x",
       "audius_title": "Neuromant - Артас, сын мой",
       "audius_seconds": 140,
-      "audius_url": "https://audius.co/Durachok/neuromant-артас-сын-мой",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-артас-сын-мой",
+      "source_handle": "astello",
       "delta_seconds": 0.14,
       "original_file_cid": "baeaaaiqseacpaqoo37wrwyav5oxuxqlj3dwhjxkepzy5chp536uynmht2fmzu",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "8POp6g3",
-          "url": "https://audius.co/Durachok/neuromant-артас-сын-мой"
-        },
         {
           "id": "Mg8pa7x",
           "url": "https://audius.co/Astello/neuromant-артас-сын-мой"
@@ -1125,19 +991,15 @@
       "catalog_id": "CHD-0045",
       "catalog_file": "Neuromant - Баллада об Андратосе.mp3",
       "catalog_seconds": 240.05,
-      "audius_id": "R6mm29w",
+      "audius_id": "AN9d0Vm",
       "audius_title": "Neuromant - Баллада об Андратосе",
       "audius_seconds": 240,
-      "audius_url": "https://audius.co/Durachok/neuromant-баллада-об-андратосе",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-баллада-об-андратосе",
+      "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqsebwdxsepqjanycnqwlsnltey4rpe52xyn4lqldz5tc6oolfnocvbg",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "R6mm29w",
-          "url": "https://audius.co/Durachok/neuromant-баллада-об-андратосе"
-        },
         {
           "id": "AN9d0Vm",
           "url": "https://audius.co/Astello/neuromant-баллада-об-андратосе"
@@ -1148,19 +1010,15 @@
       "catalog_id": "CHD-0046",
       "catalog_file": "Neuromant - В кругу семьи (Акт IV).mp3",
       "catalog_seconds": 234.14,
-      "audius_id": "WNRV2rj",
+      "audius_id": "J7Qd0rk",
       "audius_title": "Neuromant - В кругу семьи (Акт IV)",
       "audius_seconds": 234,
-      "audius_url": "https://audius.co/Durachok/neuromant-в-кругу-семьи-акт-iv",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-в-кругу-семьи-акт-iv",
+      "source_handle": "astello",
       "delta_seconds": 0.14,
       "original_file_cid": "baeaaaiqseczqlfgf3iwn3rj5a7prs6x4pypakicmzkigrdvslkjbiily5ykk4",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "WNRV2rj",
-          "url": "https://audius.co/Durachok/neuromant-в-кругу-семьи-акт-iv"
-        },
         {
           "id": "J7Qd0rk",
           "url": "https://audius.co/Astello/neuromant-в-кругу-семьи-акт-iv"
@@ -1171,19 +1029,15 @@
       "catalog_id": "CHD-0047",
       "catalog_file": "Neuromant - Владыка Черной Длани (opening).mp3",
       "catalog_seconds": 178.73,
-      "audius_id": "7Aay6k7",
+      "audius_id": "WaVlz2o",
       "audius_title": "Neuromant - Владыка Черной Длани (opening)",
       "audius_seconds": 178,
-      "audius_url": "https://audius.co/Durachok/neuromant-владыка-черной-длани-opening",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-владыка-черной-длани-opening",
+      "source_handle": "astello",
       "delta_seconds": 0.73,
       "original_file_cid": "baeaaaiqsecuz7e4w3urpat2slsc5pijbrpzmowyaxxsibtwspqhr3v7iw7zpq",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "7Aay6k7",
-          "url": "https://audius.co/Durachok/neuromant-владыка-черной-длани-opening"
-        },
         {
           "id": "WaVlz2o",
           "url": "https://audius.co/Astello/neuromant-владыка-черной-длани-opening"
@@ -1194,19 +1048,15 @@
       "catalog_id": "CHD-0048",
       "catalog_file": "Neuromant - Воспоминание о Лоретте.mp3",
       "catalog_seconds": 187.58,
-      "audius_id": "Wk15V8K",
+      "audius_id": "WaO29qB",
       "audius_title": "Neuromant - Воспоминание о Лоретте",
       "audius_seconds": 187,
-      "audius_url": "https://audius.co/Durachok/neuromant-воспоминание-о-лоретте",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-воспоминание-о-лоретте",
+      "source_handle": "astello",
       "delta_seconds": 0.58,
       "original_file_cid": "baeaaaiqsecd4aofim5csrm7gkgpswrdhwituqpmxddb5ng2d2252mcqzr63f6",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "Wk15V8K",
-          "url": "https://audius.co/Durachok/neuromant-воспоминание-о-лоретте"
-        },
         {
           "id": "WaO29qB",
           "url": "https://audius.co/Astello/neuromant-воспоминание-о-лоретте"
@@ -1217,19 +1067,15 @@
       "catalog_id": "CHD-0049",
       "catalog_file": "Neuromant - День кузнечного камня.mp3",
       "catalog_seconds": 161.74,
-      "audius_id": "8PQR05J",
+      "audius_id": "kZ2Ma4N",
       "audius_title": "Neuromant - День кузнечного камня",
       "audius_seconds": 161,
-      "audius_url": "https://audius.co/Durachok/neuromant-день-кузнечного-камня",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-день-кузнечного-камня",
+      "source_handle": "astello",
       "delta_seconds": 0.74,
       "original_file_cid": "baeaaaiqsedhiytwcgiqwnubblcikkuhclwkhekfnds3annra7c4tq42ulprgy",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "8PQR05J",
-          "url": "https://audius.co/Durachok/neuromant-день-кузнечного-камня"
-        },
         {
           "id": "kZ2Ma4N",
           "url": "https://audius.co/Astello/neuromant-день-кузнечного-камня"
@@ -1240,19 +1086,15 @@
       "catalog_id": "CHD-0050",
       "catalog_file": "Neuromant - Дерьмадемон.mp3",
       "catalog_seconds": 240.05,
-      "audius_id": "9O4vaq0",
+      "audius_id": "RGjzroz",
       "audius_title": "Neuromant - Дерьмадемон",
       "audius_seconds": 240,
-      "audius_url": "https://audius.co/Durachok/neuromant-дерьмадемон",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-дерьмадемон",
+      "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqseb6aupr4bd6fgpyb7qicuehcloljlch4hjffa5rkvkz5h4up3y2kc",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "9O4vaq0",
-          "url": "https://audius.co/Durachok/neuromant-дерьмадемон"
-        },
         {
           "id": "RGjzroz",
           "url": "https://audius.co/Astello/neuromant-дерьмадемон"
@@ -1263,19 +1105,15 @@
       "catalog_id": "CHD-0051",
       "catalog_file": "Neuromant - Клеть (nu-metal).mp3",
       "catalog_seconds": 153.89,
-      "audius_id": "WbkPmqo",
+      "audius_id": "5dymM61",
       "audius_title": "Neuromant - Клеть (nu-metal)",
       "audius_seconds": 153,
-      "audius_url": "https://audius.co/Durachok/neuromant-клеть-nu-metal",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-клеть-nu-metal",
+      "source_handle": "astello",
       "delta_seconds": 0.89,
       "original_file_cid": "baeaaaiqseah2xhojuh6owykq75o6wqlb7zzy6uws4e6bxxpbsap7ugcmfhjr2",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "WbkPmqo",
-          "url": "https://audius.co/Durachok/neuromant-клеть-nu-metal"
-        },
         {
           "id": "5dymM61",
           "url": "https://audius.co/Astello/neuromant-клеть-nu-metal"
@@ -1286,19 +1124,15 @@
       "catalog_id": "CHD-0052",
       "catalog_file": "Neuromant - Клеть.mp3",
       "catalog_seconds": 194.74,
-      "audius_id": "PAQzzN",
+      "audius_id": "Q6gxAoB",
       "audius_title": "Neuromant - Клеть",
       "audius_seconds": 194,
-      "audius_url": "https://audius.co/Durachok/neuromant-клеть",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-клеть",
+      "source_handle": "astello",
       "delta_seconds": 0.74,
       "original_file_cid": "baeaaaiqseaj3qqjcislvnkvsote4fciswhqm5fn3nsuer245gph5b3ni6qo5y",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "PAQzzN",
-          "url": "https://audius.co/Durachok/neuromant-клеть"
-        },
         {
           "id": "Q6gxAoB",
           "url": "https://audius.co/Astello/neuromant-клеть"
@@ -1309,19 +1143,15 @@
       "catalog_id": "CHD-0053",
       "catalog_file": "Neuromant - Край, бесконечно истерзанный.mp3",
       "catalog_seconds": 129.29,
-      "audius_id": "vW7mw5v",
+      "audius_id": "4jBp6Vb",
       "audius_title": "Neuromant - Край, бесконечно истерзанный",
       "audius_seconds": 129,
-      "audius_url": "https://audius.co/Durachok/neuromant-край-бесконечно-истерзанный",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-край-бесконечно-истерзанный",
+      "source_handle": "astello",
       "delta_seconds": 0.29,
       "original_file_cid": "baeaaaiqseask34vp554vflx7vqk5zi2xwrlfgs42ji5blzvnr2ynfmouxl24k",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "vW7mw5v",
-          "url": "https://audius.co/Durachok/neuromant-край-бесконечно-истерзанный"
-        },
         {
           "id": "4jBp6Vb",
           "url": "https://audius.co/Astello/neuromant-край-бесконечно-истерзанный"
@@ -1332,19 +1162,15 @@
       "catalog_id": "CHD-0054",
       "catalog_file": "Neuromant - Миша, пошли (Exclusive lovesong FM radio mix) r.mp3",
       "catalog_seconds": 143.86,
-      "audius_id": "9PpB4zM",
+      "audius_id": "lzbyEjw",
       "audius_title": "Neuromant - Миша, пошли (Exclusive lovesong FM radio mix) r",
       "audius_seconds": 143,
-      "audius_url": "https://audius.co/Durachok/neuromant-миша-пошли-exclusive-lovesong-fm-radio-mix-r",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-миша-пошли-exclusive-lovesong-fm-radio-mix-r",
+      "source_handle": "astello",
       "delta_seconds": 0.86,
       "original_file_cid": "baeaaaiqsecframykhilcef62kv7vnxrfsg3qoyzhuik4wa7lgwniq2yhwpaqa",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "9PpB4zM",
-          "url": "https://audius.co/Durachok/neuromant-миша-пошли-exclusive-lovesong-fm-radio-mix-r"
-        },
         {
           "id": "lzbyEjw",
           "url": "https://audius.co/Astello/neuromant-миша-пошли-exclusive-lovesong-fm-radio-mix-r"
@@ -1355,19 +1181,15 @@
       "catalog_id": "CHD-0055",
       "catalog_file": "Neuromant - Ненависть.mp3",
       "catalog_seconds": 150.05,
-      "audius_id": "V00R24y",
+      "audius_id": "9OYjxMG",
       "audius_title": "Neuromant - Ненависть",
       "audius_seconds": 150,
-      "audius_url": "https://audius.co/Durachok/neuromant-ненависть",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-ненависть",
+      "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqseb7w7yvscflkqwnsrzqu45vfoemd6ph2ywou2g7ggvuyrdxu7fpaw",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "V00R24y",
-          "url": "https://audius.co/Durachok/neuromant-ненависть"
-        },
         {
           "id": "9OYjxMG",
           "url": "https://audius.co/Astello/neuromant-ненависть"
@@ -1378,19 +1200,15 @@
       "catalog_id": "CHD-0056",
       "catalog_file": "Neuromant - Поднимите веки выше.mp3",
       "catalog_seconds": 241.03,
-      "audius_id": "2dR4E56",
+      "audius_id": "aavbgYa",
       "audius_title": "Neuromant - Поднимите веки выше",
       "audius_seconds": 241,
-      "audius_url": "https://audius.co/Durachok/neuromant-поднимите-веки-выше",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-поднимите-веки-выше",
+      "source_handle": "astello",
       "delta_seconds": 0.03,
       "original_file_cid": "baeaaaiqsed5wliczdsmf3ijpwvarhicg4w66qd23ounbibmrtjmxavnizj76q",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "2dR4E56",
-          "url": "https://audius.co/Durachok/neuromant-поднимите-веки-выше"
-        },
         {
           "id": "aavbgYa",
           "url": "https://audius.co/Astello/neuromant-поднимите-веки-выше"
@@ -1401,19 +1219,15 @@
       "catalog_id": "CHD-0057",
       "catalog_file": "Neuromant - Полый.mp3",
       "catalog_seconds": 220.7,
-      "audius_id": "gWlq41q",
+      "audius_id": "9kYAWla",
       "audius_title": "Neuromant - Полый",
       "audius_seconds": 220,
-      "audius_url": "https://audius.co/Durachok/neuromant-полый",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-полый",
+      "source_handle": "astello",
       "delta_seconds": 0.7,
       "original_file_cid": "baeaaaiqsec6bkvc4ozcib5chj73ltsgbg7pfpinjqp5u2vpdtgeah7b5jymu4",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "gWlq41q",
-          "url": "https://audius.co/Durachok/neuromant-полый"
-        },
         {
           "id": "9kYAWla",
           "url": "https://audius.co/Astello/neuromant-полый"
@@ -1424,19 +1238,15 @@
       "catalog_id": "CHD-0058",
       "catalog_file": "Neuromant - Последний полет бабочки.mp3",
       "catalog_seconds": 170.02,
-      "audius_id": "xyBZ27z",
+      "audius_id": "Q7pJ4b4",
       "audius_title": "Neuromant - Последний полет бабочки",
       "audius_seconds": 169,
-      "audius_url": "https://audius.co/Durachok/neuromant-последний-полет-бабочки",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-последний-полет-бабочки",
+      "source_handle": "astello",
       "delta_seconds": 1.02,
       "original_file_cid": "baeaaaiqsecwbksp7tjbo26onvbydykmaaagrwxhvkjxikcvlcwwhspnnvjol4",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "xyBZ27z",
-          "url": "https://audius.co/Durachok/neuromant-последний-полет-бабочки"
-        },
         {
           "id": "Q7pJ4b4",
           "url": "https://audius.co/Astello/neuromant-последний-полет-бабочки"
@@ -1447,19 +1257,15 @@
       "catalog_id": "CHD-0059",
       "catalog_file": "Neuromant - Проклятье крипты (darkwave).mp3",
       "catalog_seconds": 240.05,
-      "audius_id": "l4bdpmQ",
+      "audius_id": "YKa15p7",
       "audius_title": "Neuromant - Проклятье крипты (darkwave)",
       "audius_seconds": 240,
-      "audius_url": "https://audius.co/Durachok/neuromant-проклятье-крипты-darkwave",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-проклятье-крипты-darkwave",
+      "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqsediu6c2t5oltal35w4jt6m44nw3ksrf6jhe5clrzxg2mjgwzvp4vs",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "l4bdpmQ",
-          "url": "https://audius.co/Durachok/neuromant-проклятье-крипты-darkwave"
-        },
         {
           "id": "YKa15p7",
           "url": "https://audius.co/Astello/neuromant-проклятье-крипты-darkwave"
@@ -1470,19 +1276,15 @@
       "catalog_id": "CHD-0060",
       "catalog_file": "Neuromant - Проклятье крипты.mp3",
       "catalog_seconds": 240.5,
-      "audius_id": "lqaG1w",
+      "audius_id": "ry9PdBz",
       "audius_title": "Neuromant - Проклятье крипты",
       "audius_seconds": 240,
-      "audius_url": "https://audius.co/Durachok/neuromant-проклятье-крипты",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-проклятье-крипты",
+      "source_handle": "astello",
       "delta_seconds": 0.5,
       "original_file_cid": "baeaaaiqsebz6jy43wnrpyzcxxl2jhell2whm5nqdfyjunnkzolmso3mpj46uu",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "lqaG1w",
-          "url": "https://audius.co/Durachok/neuromant-проклятье-крипты"
-        },
         {
           "id": "ry9PdBz",
           "url": "https://audius.co/Astello/neuromant-проклятье-крипты"
@@ -1493,19 +1295,15 @@
       "catalog_id": "CHD-0061",
       "catalog_file": "Neuromant - Роксолана.mp3",
       "catalog_seconds": 173.86,
-      "audius_id": "0EYGEV6",
+      "audius_id": "2lzKjqK",
       "audius_title": "Neuromant - Роксолана",
       "audius_seconds": 173,
-      "audius_url": "https://audius.co/Durachok/neuromant-роксолана",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-роксолана",
+      "source_handle": "astello",
       "delta_seconds": 0.86,
       "original_file_cid": "baeaaaiqseayap5f4b46meake3idnwkxwtzn4yzfkvhq7qzzagu3rcln3ala74",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "0EYGEV6",
-          "url": "https://audius.co/Durachok/neuromant-роксолана"
-        },
         {
           "id": "2lzKjqK",
           "url": "https://audius.co/Astello/neuromant-роксолана"
@@ -1516,19 +1314,15 @@
       "catalog_id": "CHD-0062",
       "catalog_file": "Neuromant - Слияние Вечности.mp3",
       "catalog_seconds": 166.97,
-      "audius_id": "Jbv2Xb2",
+      "audius_id": "oPxp4g5",
       "audius_title": "Neuromant - Слияние Вечности",
       "audius_seconds": 166,
-      "audius_url": "https://audius.co/Durachok/neuromant-слияние-вечности",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-слияние-вечности",
+      "source_handle": "astello",
       "delta_seconds": 0.97,
       "original_file_cid": "baeaaaiqsedtfsrcu6g2q7amp5jsdzuobuf3qook5mq3kj4vux4a4zwtainwty",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "Jbv2Xb2",
-          "url": "https://audius.co/Durachok/neuromant-слияние-вечности"
-        },
         {
           "id": "oPxp4g5",
           "url": "https://audius.co/Astello/neuromant-слияние-вечности"
@@ -1539,19 +1333,15 @@
       "catalog_id": "CHD-0063",
       "catalog_file": "Neuromant - Терон.mp3",
       "catalog_seconds": 212.33,
-      "audius_id": "jVRWbK1",
+      "audius_id": "lZXGNKK",
       "audius_title": "Neuromant - Терон",
       "audius_seconds": 212,
-      "audius_url": "https://audius.co/Durachok/neuromant-терон",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-терон",
+      "source_handle": "astello",
       "delta_seconds": 0.33,
       "original_file_cid": "baeaaaiqsecv4zfqf365reezz6ez63edziz4zf42dtndzfwepnwmlsav5dqu4e",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "jVRWbK1",
-          "url": "https://audius.co/Durachok/neuromant-терон"
-        },
         {
           "id": "lZXGNKK",
           "url": "https://audius.co/Astello/neuromant-терон"
@@ -1562,19 +1352,15 @@
       "catalog_id": "CHD-0064",
       "catalog_file": "Neuromant - Эйдолон (1).mp3",
       "catalog_seconds": 240.5,
-      "audius_id": "1BlyOWz",
+      "audius_id": "bVrbZAM",
       "audius_title": "Neuromant - Эйдолон (1)",
       "audius_seconds": 240,
-      "audius_url": "https://audius.co/Durachok/neuromant-эйдолон-1",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-эйдолон-1",
+      "source_handle": "astello",
       "delta_seconds": 0.5,
       "original_file_cid": "baeaaaiqseclusvki4nsjd32n63gvawg4vyakcz6rnux4gqeb6r547wqwugha4",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "1BlyOWz",
-          "url": "https://audius.co/Durachok/neuromant-эйдолон-1"
-        },
         {
           "id": "bVrbZAM",
           "url": "https://audius.co/Astello/neuromant-эйдолон-1"
@@ -1585,19 +1371,15 @@
       "catalog_id": "CHD-0065",
       "catalog_file": "Neuromant - Эйдолон (2).mp3",
       "catalog_seconds": 240.5,
-      "audius_id": "MGK6rr9",
+      "audius_id": "pzmzM0m",
       "audius_title": "Neuromant - Эйдолон (2)",
       "audius_seconds": 240,
-      "audius_url": "https://audius.co/Durachok/neuromant-эйдолон-2",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-эйдолон-2",
+      "source_handle": "astello",
       "delta_seconds": 0.5,
       "original_file_cid": "baeaaaiqsebmljyp3pnav573bo67hvdujlh3fhlj7legl44xyktco3dqyqnep6",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "MGK6rr9",
-          "url": "https://audius.co/Durachok/neuromant-эйдолон-2"
-        },
         {
           "id": "pzmzM0m",
           "url": "https://audius.co/Astello/neuromant-эйдолон-2"
@@ -1608,19 +1390,15 @@
       "catalog_id": "CHD-0066",
       "catalog_file": "Neuromant - Эйдолон.mp3",
       "catalog_seconds": 268.03,
-      "audius_id": "REdYkRz",
+      "audius_id": "J55aj9p",
       "audius_title": "Neuromant - Эйдолон",
       "audius_seconds": 268,
-      "audius_url": "https://audius.co/Durachok/neuromant-эйдолон",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-эйдолон",
+      "source_handle": "astello",
       "delta_seconds": 0.03,
       "original_file_cid": "baeaaaiqseatngwcn6l2zfzzo6u5tosy3iwvidbcgxmsslmvajamfa375wvqqs",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "REdYkRz",
-          "url": "https://audius.co/Durachok/neuromant-эйдолон"
-        },
         {
           "id": "Q4wbE9G",
           "url": "https://audius.co/Astello/neuromant-эйдолон-3"
@@ -1635,19 +1413,15 @@
       "catalog_id": "CHD-0067",
       "catalog_file": "Neuromant - Я был первым.mp3",
       "catalog_seconds": 215.02,
-      "audius_id": "rGKVPJY",
+      "audius_id": "jbgdlKM",
       "audius_title": "Neuromant - Я был первым",
       "audius_seconds": 214,
-      "audius_url": "https://audius.co/Durachok/neuromant-я-был-первым",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromant-я-был-первым",
+      "source_handle": "astello",
       "delta_seconds": 1.02,
       "original_file_cid": "baeaaaiqseaoaox6mos2yoesqrcymby2d3jxqv7s7em7jotl3i2sj5k2zn5g2q",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "rGKVPJY",
-          "url": "https://audius.co/Durachok/neuromant-я-был-первым"
-        },
         {
           "id": "jbgdlKM",
           "url": "https://audius.co/Astello/neuromant-я-был-первым"
@@ -1658,19 +1432,15 @@
       "catalog_id": "CHD-0068",
       "catalog_file": "Neuromanta - Singilarity(vol.2).mp3",
       "catalog_seconds": 194.47,
-      "audius_id": "qRZ0xY2",
+      "audius_id": "PQojKN0",
       "audius_title": "Neuromanta - Singilarity(vol.2)",
       "audius_seconds": 194,
-      "audius_url": "https://audius.co/Durachok/neuromanta-singilarityvol2",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/neuromanta-singilarityvol2",
+      "source_handle": "astello",
       "delta_seconds": 0.47,
       "original_file_cid": "baeaaaiqsec4g5fi4xdg3lucfo2p7ocbyhzydxqpia5ms5ryzqmr4picgwei6m",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "qRZ0xY2",
-          "url": "https://audius.co/Durachok/neuromanta-singilarityvol2"
-        },
         {
           "id": "9R2Qxxa",
           "url": "https://audius.co/Astello/neuromanta-singilarityvol2-1"
@@ -1685,19 +1455,15 @@
       "catalog_id": "CHD-0069",
       "catalog_file": "Nuromanta - Antipod (v 0.666).m4a",
       "catalog_seconds": 219.82,
-      "audius_id": "50WKy2V",
+      "audius_id": "bK2xgJP",
       "audius_title": "Nuromanta - Antipod (v 0.666)",
       "audius_seconds": 219,
-      "audius_url": "https://audius.co/Durachok/nuromanta-antipod-v-0666",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/nuromanta-antipod-v-0666",
+      "source_handle": "astello",
       "delta_seconds": 0.82,
       "original_file_cid": "baeaaaiqsedqsv2zczu6z6b44h4vtnjescamyrngk2d33gfemwxkgkv6c5dsfs",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "50WKy2V",
-          "url": "https://audius.co/Durachok/nuromanta-antipod-v-0666"
-        },
         {
           "id": "bK2xgJP",
           "url": "https://audius.co/Astello/nuromanta-antipod-v-0666"
@@ -1708,19 +1474,15 @@
       "catalog_id": "CHD-0070",
       "catalog_file": "Orchestra de la Poh. Bain russe.mp3",
       "catalog_seconds": 147.22,
-      "audius_id": "GJGz2mb",
+      "audius_id": "zEZOaqp",
       "audius_title": "Orchestra de la Poh. Bain russe",
       "audius_seconds": 147,
-      "audius_url": "https://audius.co/Durachok/orchestra-de-la-poh-bain-russe",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/orchestra-de-la-poh-bain-russe",
+      "source_handle": "astello",
       "delta_seconds": 0.22,
       "original_file_cid": "baeaaaiqsedfxcwzo4auovexu7bgkbpt4ghu3mqunkasvknfyt7yg5c3ztddbo",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "GJGz2mb",
-          "url": "https://audius.co/Durachok/orchestra-de-la-poh-bain-russe"
-        },
         {
           "id": "zEZOaqp",
           "url": "https://audius.co/Astello/orchestra-de-la-poh-bain-russe"
@@ -1731,19 +1493,15 @@
       "catalog_id": "CHD-0071",
       "catalog_file": "Powerwolf_AI_-_Govnovoz_(SkySound.cc).mp3",
       "catalog_seconds": 196.94,
-      "audius_id": "7APp9xq",
+      "audius_id": "JZ0rP7Y",
       "audius_title": "Powerwolf_AI_-_Govnovoz_(SkySound.cc)",
       "audius_seconds": 196,
-      "audius_url": "https://audius.co/Durachok/powerwolf_ai_-_govnovoz_skysoundcc",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/powerwolf_ai_-_govnovoz_skysoundcc",
+      "source_handle": "astello",
       "delta_seconds": 0.94,
       "original_file_cid": "baeaaaiqseadngo5rt2f5iwq6hkifam254fevhhwwpua6l37nhvkfpfkm4tb7u",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "7APp9xq",
-          "url": "https://audius.co/Durachok/powerwolf_ai_-_govnovoz_skysoundcc"
-        },
         {
           "id": "JZ0rP7Y",
           "url": "https://audius.co/Astello/powerwolf_ai_-_govnovoz_skysoundcc"
@@ -1754,19 +1512,15 @@
       "catalog_id": "CHD-0072",
       "catalog_file": "samhain-ball.mp3",
       "catalog_seconds": 136.82,
-      "audius_id": "2G8aZj2",
+      "audius_id": "YmRqyxm",
       "audius_title": "samhain-ball",
       "audius_seconds": 136,
-      "audius_url": "https://audius.co/Durachok/samhain-ball",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/samhain-ball",
+      "source_handle": "astello",
       "delta_seconds": 0.82,
       "original_file_cid": "baeaaaiqseak5uuumsxe7rbex44i3ug2e3saeeu7m63v6zs2wnewihyuhpwkve",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "2G8aZj2",
-          "url": "https://audius.co/Durachok/samhain-ball"
-        },
         {
           "id": "YmRqyxm",
           "url": "https://audius.co/Astello/samhain-ball"
@@ -1777,19 +1531,15 @@
       "catalog_id": "CHD-0073",
       "catalog_file": "SHIZZARD ENTERTAIMENT - Skyborne.mp3",
       "catalog_seconds": 199.58,
-      "audius_id": "bQG2VOQ",
+      "audius_id": "kv7lZqN",
       "audius_title": "SHIZZARD ENTERTAIMENT - Skyborne",
       "audius_seconds": 199,
-      "audius_url": "https://audius.co/Durachok/shizzard-entertaiment-skyborne",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/shizzard-entertaiment-skyborne",
+      "source_handle": "astello",
       "delta_seconds": 0.58,
       "original_file_cid": "baeaaaiqsebxixyrucu5wakltq6vbzma2s2lq4au2irtakkgm6z4ewoli4ggke",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "bQG2VOQ",
-          "url": "https://audius.co/Durachok/shizzard-entertaiment-skyborne"
-        },
         {
           "id": "1jpJpJW",
           "url": "https://audius.co/Astello/shizzard-entertaiment-skyborne-1"
@@ -1804,19 +1554,15 @@
       "catalog_id": "CHD-0074",
       "catalog_file": "Sleep my turtling.mp3",
       "catalog_seconds": 405.96,
-      "audius_id": "MoP9oo",
+      "audius_id": "q7RAzwm",
       "audius_title": "Sleep my turtling",
       "audius_seconds": 405,
-      "audius_url": "https://audius.co/Durachok/sleep-my-turtling",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/sleep-my-turtling",
+      "source_handle": "astello",
       "delta_seconds": 0.96,
       "original_file_cid": "baeaaaiqsecm2or5hyqbegjdmajcgr423oa7vw4zdlzgvxoltq5qkthlq7zjoi",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "MoP9oo",
-          "url": "https://audius.co/Durachok/sleep-my-turtling"
-        },
         {
           "id": "2Ro1wMd",
           "url": "https://audius.co/Astello/sleep-my-turtling-1"
@@ -1831,19 +1577,15 @@
       "catalog_id": "CHD-0075",
       "catalog_file": "Teron - Я был первым (remastered).mp3",
       "catalog_seconds": 184.75,
-      "audius_id": "5jp2alM",
+      "audius_id": "bbX09bb",
       "audius_title": "Teron - Я был первым (remastered)",
       "audius_seconds": 184,
-      "audius_url": "https://audius.co/Durachok/teron-я-был-первым-remastered",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/teron-я-был-первым-remastered",
+      "source_handle": "astello",
       "delta_seconds": 0.75,
       "original_file_cid": "baeaaaiqseceafdnhbvi6xxb2ua3532n3ivl63xxdgdhs4qqniww36xp2vijfk",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "5jp2alM",
-          "url": "https://audius.co/Durachok/teron-я-был-первым-remastered"
-        },
         {
           "id": "bbX09bb",
           "url": "https://audius.co/Astello/teron-я-был-первым-remastered"
@@ -1854,19 +1596,15 @@
       "catalog_id": "CHD-0076",
       "catalog_file": "TRAKTORIST - По полям, по полям.mp3",
       "catalog_seconds": 227.52,
-      "audius_id": "WQKp7zB",
+      "audius_id": "2lG3PX1",
       "audius_title": "TRAKTORIST - По полям, по полям",
       "audius_seconds": 227,
-      "audius_url": "https://audius.co/Durachok/traktorist-по-полям-по-полям",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/traktorist-по-полям-по-полям",
+      "source_handle": "astello",
       "delta_seconds": 0.52,
       "original_file_cid": "baeaaaiqsebmx7qdym5eu2tfwzvzyeia3iurtbm5lfttwchk6b6stkgierl5hi",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "WQKp7zB",
-          "url": "https://audius.co/Durachok/traktorist-по-полям-по-полям"
-        },
         {
           "id": "g4ZaxKx",
           "url": "https://audius.co/Astello/traktorist-по-полям-по-полям-1"
@@ -1881,19 +1619,15 @@
       "catalog_id": "CHD-0077",
       "catalog_file": "trupovoz.mp3",
       "catalog_seconds": 237.36,
-      "audius_id": "QVO4jg1",
+      "audius_id": "BarZKdY",
       "audius_title": "trupovoz",
       "audius_seconds": 237,
-      "audius_url": "https://audius.co/Durachok/trupovoz",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/trupovoz",
+      "source_handle": "astello",
       "delta_seconds": 0.36,
       "original_file_cid": "baeaaaiqseb2sartqbat2um5y2ndewfput2te7n23rzguqce7jblhcrwvgefkk",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "QVO4jg1",
-          "url": "https://audius.co/Durachok/trupovoz"
-        },
         {
           "id": "BarZKdY",
           "url": "https://audius.co/Astello/trupovoz"
@@ -1904,19 +1638,15 @@
       "catalog_id": "CHD-0078",
       "catalog_file": "Valheim_ Legacy of Bronzebeard.mp3",
       "catalog_seconds": 310.03,
-      "audius_id": "0X8jWpK",
+      "audius_id": "lvPbPjN",
       "audius_title": "Valheim_ Legacy of Bronzebeard",
       "audius_seconds": 310,
-      "audius_url": "https://audius.co/Durachok/valheim_-legacy-of-bronzebeard",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/valheim_-legacy-of-bronzebeard",
+      "source_handle": "astello",
       "delta_seconds": 0.03,
       "original_file_cid": "baeaaaiqsecdmgk3ye6ekxnkcoxr5xouhysh5iyql7co4wxrnjzyqhtdaue5ro",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "0X8jWpK",
-          "url": "https://audius.co/Durachok/valheim_-legacy-of-bronzebeard"
-        },
         {
           "id": "abNKEQQ",
           "url": "https://audius.co/Astello/valheim_-legacy-of-bronzebeard-1"
@@ -1931,19 +1661,15 @@
       "catalog_id": "CHD-0079",
       "catalog_file": "VEA - Мое болото.mp3",
       "catalog_seconds": 132.62,
-      "audius_id": "W6P85wZ",
+      "audius_id": "3o6wQ9Z",
       "audius_title": "VEA - Мое болото",
       "audius_seconds": 132,
-      "audius_url": "https://audius.co/Durachok/vea-мое-болото",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/vea-мое-болото",
+      "source_handle": "astello",
       "delta_seconds": 0.62,
       "original_file_cid": "baeaaaiqsebhhof23rdlijue7rie62ol2fbc6q4mnecxkdnlu5hp6onhezhpe6",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "W6P85wZ",
-          "url": "https://audius.co/Durachok/vea-мое-болото"
-        },
         {
           "id": "3o6wQ9Z",
           "url": "https://audius.co/Astello/vea-мое-болото"
@@ -1954,19 +1680,15 @@
       "catalog_id": "CHD-0080",
       "catalog_file": "VoMrakPadshiy - Ballada o paladine vo mrake v2.mp3",
       "catalog_seconds": 175.49,
-      "audius_id": "vjgdopY",
+      "audius_id": "oE3o267",
       "audius_title": "VoMrakPadshiy - Ballada o paladine vo mrake v2",
       "audius_seconds": 175,
-      "audius_url": "https://audius.co/Durachok/vomrakpadshiy-ballada-o-paladine-vo-mrake-v2",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/vomrakpadshiy-ballada-o-paladine-vo-mrake-v2",
+      "source_handle": "astello",
       "delta_seconds": 0.49,
       "original_file_cid": "baeaaaiqsedqnofanvrv7zphqv4usgzyrzg7oaih6vpqgk4tngnewu45ddutdg",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "vjgdopY",
-          "url": "https://audius.co/Durachok/vomrakpadshiy-ballada-o-paladine-vo-mrake-v2"
-        },
         {
           "id": "oE3o267",
           "url": "https://audius.co/Astello/vomrakpadshiy-ballada-o-paladine-vo-mrake-v2"
@@ -1977,19 +1699,15 @@
       "catalog_id": "CHD-0081",
       "catalog_file": "Warcrafter - Вспоминаю дни, когда мир был жив....mp3",
       "catalog_seconds": 115.06,
-      "audius_id": "kGlG57w",
+      "audius_id": "Ym63J0r",
       "audius_title": "Warcrafter - Вспоминаю дни, когда мир был жив...",
       "audius_seconds": 115,
-      "audius_url": "https://audius.co/Durachok/warcrafter-вспоминаю-дни-когда-мир-был-жив",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/warcrafter-вспоминаю-дни-когда-мир-был-жив",
+      "source_handle": "astello",
       "delta_seconds": 0.06,
       "original_file_cid": "baeaaaiqsebpbkggqswwfrsxb3n756zixzae2sihxysffjn2av5q52ejmfwg5y",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "kGlG57w",
-          "url": "https://audius.co/Durachok/warcrafter-вспоминаю-дни-когда-мир-был-жив"
-        },
         {
           "id": "Ym63J0r",
           "url": "https://audius.co/Astello/warcrafter-вспоминаю-дни-когда-мир-был-жив"
@@ -2000,19 +1718,15 @@
       "catalog_id": "CHD-0082",
       "catalog_file": "Warcrafter - Вспоминаю дни.. v2.0.mp3",
       "catalog_seconds": 117.74,
-      "audius_id": "Nll8G74",
+      "audius_id": "3om76b0",
       "audius_title": "Warcrafter - Вспоминаю дни.. v2.0",
       "audius_seconds": 117,
-      "audius_url": "https://audius.co/Durachok/warcrafter-вспоминаю-дни-v20",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/warcrafter-вспоминаю-дни-v20",
+      "source_handle": "astello",
       "delta_seconds": 0.74,
       "original_file_cid": "baeaaaiqsecguleclp5o74orbh6lxvvkszaq4eiq4e5o2wip62alof47ig2m5g",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "Nll8G74",
-          "url": "https://audius.co/Durachok/warcrafter-вспоминаю-дни-v20"
-        },
         {
           "id": "3om76b0",
           "url": "https://audius.co/Astello/warcrafter-вспоминаю-дни-v20"
@@ -2023,19 +1737,15 @@
       "catalog_id": "CHD-0083",
       "catalog_file": "WoW Forever тепло.mp3",
       "catalog_seconds": 173.64,
-      "audius_id": "jYKB7Mo",
+      "audius_id": "W6azY1K",
       "audius_title": "WoW Forever тепло",
       "audius_seconds": 173,
-      "audius_url": "https://audius.co/Durachok/wow-forever-тепло",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/wow-forever-тепло",
+      "source_handle": "astello",
       "delta_seconds": 0.64,
       "original_file_cid": "baeaaaiqseazskqoofsmhm77ibyq7nzucuzfb6saufwi325hmlvgh4lkxblyvc",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "jYKB7Mo",
-          "url": "https://audius.co/Durachok/wow-forever-тепло"
-        },
         {
           "id": "ANVpYoK",
           "url": "https://audius.co/Astello/wow-forever-тепло-1"
@@ -2050,19 +1760,15 @@
       "catalog_id": "CHD-0084",
       "catalog_file": "WoW Forever.mp3",
       "catalog_seconds": 312.43,
-      "audius_id": "ZY5Y46",
+      "audius_id": "BJVqk9m",
       "audius_title": "WoW Forever",
       "audius_seconds": 312,
-      "audius_url": "https://audius.co/Durachok/wow-forever",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/wow-forever",
+      "source_handle": "astello",
       "delta_seconds": 0.43,
       "original_file_cid": "baeaaaiqseaynp4hn3etpn4kchrjxcbpdp2lpsaejil6bscohjpdrioicpdy72",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "ZY5Y46",
-          "url": "https://audius.co/Durachok/wow-forever"
-        },
         {
           "id": "aN347Nj",
           "url": "https://audius.co/Astello/wow-forever-1"
@@ -2077,19 +1783,15 @@
       "catalog_id": "CHD-0085",
       "catalog_file": "А может просто Кисиком стать.mp3",
       "catalog_seconds": 251.18,
-      "audius_id": "AAMv26g",
+      "audius_id": "mkaExxr",
       "audius_title": "А может просто Кисиком стать",
       "audius_seconds": 251,
-      "audius_url": "https://audius.co/Durachok/а-может-просто-кисиком-стать",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/а-может-просто-кисиком-стать",
+      "source_handle": "astello",
       "delta_seconds": 0.18,
       "original_file_cid": "baeaaaiqseb4jrwfbfrlsf5mivbtyndvmz2j564os5na6pc66vbzeaw2k4kf3s",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "AAMv26g",
-          "url": "https://audius.co/Durachok/а-может-просто-кисиком-стать"
-        },
         {
           "id": "Nlvrmw",
           "url": "https://audius.co/Astello/а-может-просто-кисиком-стать-1"
@@ -2104,19 +1806,15 @@
       "catalog_id": "CHD-0086",
       "catalog_file": "Аааа, Бронзби́рд… ну шо это тако́е_!.mp3",
       "catalog_seconds": 178.58,
-      "audius_id": "52wrxyY",
+      "audius_id": "QRlQ3zW",
       "audius_title": "Аааа, Бронзби́рд… ну шо это тако́е_!",
       "audius_seconds": 178,
-      "audius_url": "https://audius.co/Durachok/аааа-бронзби́рд…-ну-шо-это-тако́е_",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/аааа-бронзби́рд…-ну-шо-это-тако́е_",
+      "source_handle": "astello",
       "delta_seconds": 0.58,
       "original_file_cid": "baeaaaiqseb3wzogj7vtpgudifkceas6lc3iox7lrr64hiozno2jwa7u3tupqy",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "52wrxyY",
-          "url": "https://audius.co/Durachok/аааа-бронзби́рд…-ну-шо-это-тако́е_"
-        },
         {
           "id": "Nkmzp3w",
           "url": "https://audius.co/Astello/аааа-бронзби́рд…-ну-шо-это-тако́е_-1"
@@ -2131,19 +1829,15 @@
       "catalog_id": "CHD-0087",
       "catalog_file": "Аго́нит в шторме́.mp3",
       "catalog_seconds": 192.12,
-      "audius_id": "wpRWg7j",
+      "audius_id": "GJZQzmx",
       "audius_title": "Аго́нит в шторме́",
       "audius_seconds": 192,
-      "audius_url": "https://audius.co/Durachok/аго́нит-в-шторме́",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/аго́нит-в-шторме́",
+      "source_handle": "astello",
       "delta_seconds": 0.12,
       "original_file_cid": "baeaaaiqsebo35z7v4ptsgodd54qjnd5vl42jqs42z5azv55ogd6qlkhse4zd6",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "wpRWg7j",
-          "url": "https://audius.co/Durachok/аго́нит-в-шторме́"
-        },
         {
           "id": "J7olzkZ",
           "url": "https://audius.co/Astello/аго́нит-в-шторме́-1"
@@ -2158,19 +1852,15 @@
       "catalog_id": "CHD-0088",
       "catalog_file": "Агонит - Эльфийские руины.mp3",
       "catalog_seconds": 275.26,
-      "audius_id": "xQ5ZdWx",
+      "audius_id": "j9NmVV4",
       "audius_title": "Агонит - Эльфийские руины",
       "audius_seconds": 275,
-      "audius_url": "https://audius.co/Durachok/агонит-эльфийские-руины",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/агонит-эльфийские-руины",
+      "source_handle": "astello",
       "delta_seconds": 0.26,
       "original_file_cid": "baeaaaiqseaezik3gysgcivhy6fql2k2cqgm4isdkdau3dr7jmk6quqhijorzw",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "xQ5ZdWx",
-          "url": "https://audius.co/Durachok/агонит-эльфийские-руины"
-        },
         {
           "id": "r9blxgg",
           "url": "https://audius.co/Astello/агонит-эльфийские-руины-1"
@@ -2185,19 +1875,15 @@
       "catalog_id": "CHD-0089",
       "catalog_file": "Айсберг в океане.mp3",
       "catalog_seconds": 293.23,
-      "audius_id": "2QNvr1",
+      "audius_id": "YBVMr7",
       "audius_title": "Айсберг в океане",
       "audius_seconds": 293,
-      "audius_url": "https://audius.co/Durachok/айсберг-в-океане",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/айсберг-в-океане",
+      "source_handle": "astello",
       "delta_seconds": 0.23,
       "original_file_cid": "baeaaaiqsec2qvmngasqh2wyu3vkr4zzd4leex43qrsu2j3lq5ct46xypj4ole",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "2QNvr1",
-          "url": "https://audius.co/Durachok/айсберг-в-океане"
-        },
         {
           "id": "jbjOYx1",
           "url": "https://audius.co/Astello/айсберг-в-океане-1"
@@ -2212,19 +1898,15 @@
       "catalog_id": "CHD-0090",
       "catalog_file": "Алмаз из Говнистых Глубин.mp3",
       "catalog_seconds": 214.39,
-      "audius_id": "RG0JKlg",
+      "audius_id": "kPRpkR1",
       "audius_title": "Алмаз из Говнистых Глубин",
       "audius_seconds": 214,
-      "audius_url": "https://audius.co/Durachok/алмаз-из-говнистых-глубин",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/алмаз-из-говнистых-глубин",
+      "source_handle": "astello",
       "delta_seconds": 0.39,
       "original_file_cid": "baeaaaiqsea2ltgoqhhuhgj66ivtb2fgkn2j7lrg2xv3sndkrjwrccxnl4l2zu",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "RG0JKlg",
-          "url": "https://audius.co/Durachok/алмаз-из-говнистых-глубин"
-        },
         {
           "id": "goWqMZ",
           "url": "https://audius.co/Astello/алмаз-из-говнистых-глубин-1"
@@ -2239,19 +1921,15 @@
       "catalog_id": "CHD-0091",
       "catalog_file": "АЛЬТУШКА ДЛЯ ВИЯ - Homa Brut.mp3",
       "catalog_seconds": 226.8,
-      "audius_id": "jNEwk81",
+      "audius_id": "XPKy1GO",
       "audius_title": "АЛЬТУШКА ДЛЯ ВИЯ - Homa Brut",
       "audius_seconds": 226,
-      "audius_url": "https://audius.co/Durachok/альтушка-для-вия-homa-brut",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/альтушка-для-вия-homa-brut",
+      "source_handle": "astello",
       "delta_seconds": 0.8,
       "original_file_cid": "baeaaaiqsedg3ndtkkckqktep4uaavwrwgevbiukgmlqjbm4bfdyuvqxc5nynw",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "jNEwk81",
-          "url": "https://audius.co/Durachok/альтушка-для-вия-homa-brut"
-        },
         {
           "id": "XPKy1GO",
           "url": "https://audius.co/Astello/альтушка-для-вия-homa-brut"
@@ -2262,19 +1940,15 @@
       "catalog_id": "CHD-0092",
       "catalog_file": "Ассуми самочка.mp3",
       "catalog_seconds": 60.02,
-      "audius_id": "RYlglkX",
+      "audius_id": "O7O8v34",
       "audius_title": "Ассуми самочка",
       "audius_seconds": 60,
-      "audius_url": "https://audius.co/Durachok/ассуми-самочка",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/ассуми-самочка",
+      "source_handle": "astello",
       "delta_seconds": 0.02,
       "original_file_cid": "baeaaaiqsedf4nkjvnh2hjooepyetzroptmpyhg6qxilyhbgc2s3ks4ppe2uha",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "RYlglkX",
-          "url": "https://audius.co/Durachok/ассуми-самочка"
-        },
         {
           "id": "GQGoRXx",
           "url": "https://audius.co/Astello/ассуми-самочка-1"
@@ -2289,19 +1963,15 @@
       "catalog_id": "CHD-0093",
       "catalog_file": "Барон Ревиглаз - Balenciaga.mp3",
       "catalog_seconds": 319.99,
-      "audius_id": "2j8gylZ",
+      "audius_id": "aWw574z",
       "audius_title": "Барон Ревиглаз - Balenciaga",
       "audius_seconds": 319,
-      "audius_url": "https://audius.co/Durachok/барон-ревиглаз-balenciaga",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/барон-ревиглаз-balenciaga",
+      "source_handle": "astello",
       "delta_seconds": 0.99,
       "original_file_cid": "baeaaaiqseam7qhuynbhlwqufehcakgqtfuknhyhs7sm34dqdvs3rytoij5dpy",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "2j8gylZ",
-          "url": "https://audius.co/Durachok/барон-ревиглаз-balenciaga"
-        },
         {
           "id": "gW3Xx1v",
           "url": "https://audius.co/Astello/барон-ревиглаз-balenciaga-1"
@@ -2316,19 +1986,15 @@
       "catalog_id": "CHD-0094",
       "catalog_file": "Барон Ревиглаз - Пиратский бенгер.mp3",
       "catalog_seconds": 196.22,
-      "audius_id": "mRGb7Jp",
+      "audius_id": "WaYNWzK",
       "audius_title": "Барон Ревиглаз - Пиратский бенгер",
       "audius_seconds": 196,
-      "audius_url": "https://audius.co/Durachok/барон-ревиглаз-пиратский-бенгер",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/барон-ревиглаз-пиратский-бенгер",
+      "source_handle": "astello",
       "delta_seconds": 0.22,
       "original_file_cid": "baeaaaiqsedim3i7j2c2sqavnfkpaxjivhic3ebneskgsy2f64zkjkgkrcnsoq",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "mRGb7Jp",
-          "url": "https://audius.co/Durachok/барон-ревиглаз-пиратский-бенгер"
-        },
         {
           "id": "Oa1K64",
           "url": "https://audius.co/Astello/барон-ревиглаз-пиратский-бенгер-1"
@@ -2343,19 +2009,15 @@
       "catalog_id": "CHD-0095",
       "catalog_file": "Барон Ревиглаз - Пиратский Косяк.mp3",
       "catalog_seconds": 180.5,
-      "audius_id": "ZRNKKoa",
+      "audius_id": "gvN9w3Z",
       "audius_title": "Барон Ревиглаз - Пиратский Косяк",
       "audius_seconds": 180,
-      "audius_url": "https://audius.co/Durachok/барон-ревиглаз-пиратский-косяк",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/барон-ревиглаз-пиратский-косяк",
+      "source_handle": "astello",
       "delta_seconds": 0.5,
       "original_file_cid": "baeaaaiqseazeuxj5vmqvk5vcxw5cdipp2fp5rbmujbfsoizvnrrvdf3scahyu",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "ZRNKKoa",
-          "url": "https://audius.co/Durachok/барон-ревиглаз-пиратский-косяк"
-        },
         {
           "id": "P6X3jW5",
           "url": "https://audius.co/Astello/барон-ревиглаз-пиратский-косяк-1"
@@ -2370,19 +2032,15 @@
       "catalog_id": "CHD-0096",
       "catalog_file": "Барон Ревиглаз feat DJ Говнокрад - закрытие Бронзбирда.mp3",
       "catalog_seconds": 184.58,
-      "audius_id": "ZbMwQ2J",
+      "audius_id": "vG3wddv",
       "audius_title": "Барон Ревиглаз feat DJ Говнокрад - закрытие Бронзбирда",
       "audius_seconds": 184,
-      "audius_url": "https://audius.co/Durachok/барон-ревиглаз-feat-dj-говнокрад-закрытие-бронзбирда",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/барон-ревиглаз-feat-dj-говнокрад-закрытие-бронзбирда",
+      "source_handle": "astello",
       "delta_seconds": 0.58,
       "original_file_cid": "baeaaaiqsed65tsnzp65yqnokdtlht57mvunng73nm7bg7cqcpz2nhsncearyq",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "ZbMwQ2J",
-          "url": "https://audius.co/Durachok/барон-ревиглаз-feat-dj-говнокрад-закрытие-бронзбирда"
-        },
         {
           "id": "62d71NQ",
           "url": "https://audius.co/Astello/барон-ревиглаз-feat-dj-говнокрад-закрытие-бронзбирда-1"
@@ -2397,19 +2055,15 @@
       "catalog_id": "CHD-0097",
       "catalog_file": "Бедство Элвиннского леса.mp3",
       "catalog_seconds": 202.66,
-      "audius_id": "lwBzrmA",
+      "audius_id": "09q7K4",
       "audius_title": "Бедство Элвиннского леса",
       "audius_seconds": 202,
-      "audius_url": "https://audius.co/Durachok/бедство-элвиннского-леса",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/бедство-элвиннского-леса",
+      "source_handle": "astello",
       "delta_seconds": 0.66,
       "original_file_cid": "baeaaaiqseb3mq7agodlwn365rv4wbsv42dn6qv23ypljy3w4dw7u2f53flx4k",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "lwBzrmA",
-          "url": "https://audius.co/Durachok/бедство-элвиннского-леса"
-        },
         {
           "id": "09q7K4",
           "url": "https://audius.co/Astello/бедство-элвиннского-леса"
@@ -2420,19 +2074,15 @@
       "catalog_id": "CHD-0098",
       "catalog_file": "Блюз Эльфийские Руины.mp3",
       "catalog_seconds": 282.36,
-      "audius_id": "3OjXxYE",
+      "audius_id": "J4ydKo",
       "audius_title": "Блюз Эльфийские Руины",
       "audius_seconds": 282,
-      "audius_url": "https://audius.co/Durachok/блюз-эльфийские-руины",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/блюз-эльфийские-руины",
+      "source_handle": "astello",
       "delta_seconds": 0.36,
       "original_file_cid": "baeaaaiqseavvmfkhnlpqpgy2kxaaci65qvtuv7evqj5t4er6z2tbgyppcdo2u",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "3OjXxYE",
-          "url": "https://audius.co/Durachok/блюз-эльфийские-руины"
-        },
         {
           "id": "Nl0pk2x",
           "url": "https://audius.co/Astello/блюз-эльфийские-руины-1"
@@ -2447,19 +2097,15 @@
       "catalog_id": "CHD-0099",
       "catalog_file": "Бронзбирд - закрытие.mp3",
       "catalog_seconds": 184.58,
-      "audius_id": "q4O9wzP",
+      "audius_id": "r2O5dw8",
       "audius_title": "Бронзбирд - закрытие",
       "audius_seconds": 184,
-      "audius_url": "https://audius.co/Durachok/бронзбирд-закрытие",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/бронзбирд-закрытие",
+      "source_handle": "astello",
       "delta_seconds": 0.58,
       "original_file_cid": "baeaaaiqsed65tsnzp65yqnokdtlht57mvunng73nm7bg7cqcpz2nhsncearyq",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "q4O9wzP",
-          "url": "https://audius.co/Durachok/бронзбирд-закрытие"
-        },
         {
           "id": "QboArov",
           "url": "https://audius.co/Astello/бронзбирд-закрытие-1"
@@ -2474,19 +2120,15 @@
       "catalog_id": "CHD-0100",
       "catalog_file": "Бухгалтер Гнилью.mp3",
       "catalog_seconds": 189.98,
-      "audius_id": "J5rg8d7",
+      "audius_id": "vvA8J8",
       "audius_title": "Бухгалтер Гнилью",
       "audius_seconds": 189,
-      "audius_url": "https://audius.co/Durachok/бухгалтер-гнилью",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/бухгалтер-гнилью",
+      "source_handle": "astello",
       "delta_seconds": 0.98,
       "original_file_cid": "baeaaaiqsebftevc55bu4fk4s7j5nrt33yjzsgjxkjzgucjwrdzb5jlru7rjf4",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "J5rg8d7",
-          "url": "https://audius.co/Durachok/бухгалтер-гнилью"
-        },
         {
           "id": "YVw0gJv",
           "url": "https://audius.co/Astello/бухгалтер-гнилью-1"
@@ -2501,19 +2143,15 @@
       "catalog_id": "CHD-0101",
       "catalog_file": "В склеп древний, про́клятый, темный,.mp3",
       "catalog_seconds": 240.05,
-      "audius_id": "O6kXvyZ",
+      "audius_id": "aNJylzQ",
       "audius_title": "В склеп древний, про́клятый, темный,",
       "audius_seconds": 240,
-      "audius_url": "https://audius.co/Durachok/в-склеп-древний-про́клятый-темный",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/в-склеп-древний-про́клятый-темный",
+      "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqsed6abgzrw3une24yfxjege2cz2n6cilwp7bguy5hu6ksmkdkmak5y",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "O6kXvyZ",
-          "url": "https://audius.co/Durachok/в-склеп-древний-про́клятый-темный"
-        },
         {
           "id": "aNJylzQ",
           "url": "https://audius.co/Astello/в-склеп-древний-про́клятый-темный"
@@ -2524,19 +2162,15 @@
       "catalog_id": "CHD-0102",
       "catalog_file": "Вар - Прокачка.mp3",
       "catalog_seconds": 182.787483,
-      "audius_id": "ydM1w1P",
+      "audius_id": "XBwJ9Ab",
       "audius_title": "Вар - Прокачка",
       "audius_seconds": 182,
-      "audius_url": "https://audius.co/Durachok/вар-прокачка",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/вар-прокачка",
+      "source_handle": "astello",
       "delta_seconds": 0.787483,
       "original_file_cid": "baeaaaiqsecofnbtraejlzpqvonkphvgrpvlcfqikhlidayhkvsxgdbuhoww5y",
-      "action": "add",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "ydM1w1P",
-          "url": "https://audius.co/Durachok/вар-прокачка"
-        },
         {
           "id": "XBwJ9Ab",
           "url": "https://audius.co/Astello/вар-прокачка"
@@ -2547,19 +2181,15 @@
       "catalog_id": "CHD-0103",
       "catalog_file": "вперед на брбрбрбр.mp3",
       "catalog_seconds": 239.09,
-      "audius_id": "1ORqPmQ",
+      "audius_id": "XgVKdQy",
       "audius_title": "вперед на брбрбрбр",
       "audius_seconds": 239,
-      "audius_url": "https://audius.co/Durachok/вперед-на-брбрбрбр",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/вперед-на-брбрбрбр",
+      "source_handle": "astello",
       "delta_seconds": 0.09,
       "original_file_cid": "baeaaaiqseaqorvwzxydtmyhwbvdicqgkn7yjfrhurvpka63orpiuw2pguzoak",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "1ORqPmQ",
-          "url": "https://audius.co/Durachok/вперед-на-брбрбрбр"
-        },
         {
           "id": "XgVKdQy",
           "url": "https://audius.co/Astello/вперед-на-брбрбрбр"
@@ -2570,19 +2200,15 @@
       "catalog_id": "CHD-0104",
       "catalog_file": "Гимн ЧД V.3.mp3",
       "catalog_seconds": 240.05,
-      "audius_id": "ljMlJ1A",
+      "audius_id": "zE5EbQ5",
       "audius_title": "Гимн ЧД V.3",
       "audius_seconds": 240,
-      "audius_url": "https://audius.co/Durachok/гимн-чд-v3",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/гимн-чд-v3",
+      "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqseb5n5c7fou3q2nddeqvi7jjbnm6hvx3245cyyaczk3ob6pqckzckg",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "ljMlJ1A",
-          "url": "https://audius.co/Durachok/гимн-чд-v3"
-        },
         {
           "id": "zE5EbQ5",
           "url": "https://audius.co/Astello/гимн-чд-v3"
@@ -2593,19 +2219,15 @@
       "catalog_id": "CHD-0105",
       "catalog_file": "Гимн ЧД, но это аниме (JP).mp3",
       "catalog_seconds": 240.05,
-      "audius_id": "AA3agrw",
+      "audius_id": "QKlRKZV",
       "audius_title": "Гимн ЧД, но это аниме (JP)",
       "audius_seconds": 240,
-      "audius_url": "https://audius.co/Durachok/гимн-чд-но-это-аниме-jp",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/гимн-чд-но-это-аниме-jp",
+      "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqsed4g7hxabrd3elx27kj5kjbdjjvmlhxqwyqielrbv73zxayvxw34o",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "AA3agrw",
-          "url": "https://audius.co/Durachok/гимн-чд-но-это-аниме-jp"
-        },
         {
           "id": "QKlRKZV",
           "url": "https://audius.co/Astello/гимн-чд-но-это-аниме-jp"
@@ -2616,19 +2238,15 @@
       "catalog_id": "CHD-0106",
       "catalog_file": "Гимн ЧД, но это аниме (JP_metal).mp3",
       "catalog_seconds": 220.34,
-      "audius_id": "vZO8ozY",
+      "audius_id": "GQk3MZx",
       "audius_title": "Гимн ЧД, но это аниме (JP_metal)",
       "audius_seconds": 220,
-      "audius_url": "https://audius.co/Durachok/гимн-чд-но-это-аниме-jp_metal",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/гимн-чд-но-это-аниме-jp_metal",
+      "source_handle": "astello",
       "delta_seconds": 0.34,
       "original_file_cid": "baeaaaiqsecazgk7dn7n6b2bikkv55ciov2q5pynk2cio4glfv3p4lhgwyu45u",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "vZO8ozY",
-          "url": "https://audius.co/Durachok/гимн-чд-но-это-аниме-jp_metal"
-        },
         {
           "id": "GQk3MZx",
           "url": "https://audius.co/Astello/гимн-чд-но-это-аниме-jp_metal"
@@ -2639,19 +2257,15 @@
       "catalog_id": "CHD-0107",
       "catalog_file": "Гимн ЧД.mp3",
       "catalog_seconds": 240.05,
-      "audius_id": "EYrg8RR",
+      "audius_id": "Xk9boxO",
       "audius_title": "Гимн ЧД",
       "audius_seconds": 240,
-      "audius_url": "https://audius.co/Durachok/гимн-чд",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/гимн-чд",
+      "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqseb2qm6222src6j4jjdpz5xcpo6szv4dhxa5o7axx4lqv4b27nzou6",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "EYrg8RR",
-          "url": "https://audius.co/Durachok/гимн-чд"
-        },
         {
           "id": "Xk9boxO",
           "url": "https://audius.co/Astello/гимн-чд"
@@ -2662,19 +2276,15 @@
       "catalog_id": "CHD-0108",
       "catalog_file": "Грехопадение.mp3",
       "catalog_seconds": 277.94,
-      "audius_id": "6x40kVK",
+      "audius_id": "NlAA1m8",
       "audius_title": "Грехопадение",
       "audius_seconds": 277,
-      "audius_url": "https://audius.co/Durachok/грехопадение",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/грехопадение",
+      "source_handle": "astello",
       "delta_seconds": 0.94,
       "original_file_cid": "baeaaaiqseb5kies54ovyzsx4mkxtwh2hpyjrgckj3eqhpx7v5y6kef3iyvs4k",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "6x40kVK",
-          "url": "https://audius.co/Durachok/грехопадение"
-        },
         {
           "id": "m6jQk82",
           "url": "https://audius.co/Astello/грехопадение-1"
@@ -2689,19 +2299,15 @@
       "catalog_id": "CHD-0109",
       "catalog_file": "Девять кругов.mp3",
       "catalog_seconds": 58.2,
-      "audius_id": "QZ285MW",
+      "audius_id": "VPwOPV6",
       "audius_title": "Девять кругов",
       "audius_seconds": 58,
-      "audius_url": "https://audius.co/Durachok/девять-кругов",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/девять-кругов",
+      "source_handle": "astello",
       "delta_seconds": 0.2,
       "original_file_cid": "baeaaaiqseasurawyqoeewyautnscd7pkdbiteyfrmthmzjxvlffbaxmgrqulo",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "QZ285MW",
-          "url": "https://audius.co/Durachok/девять-кругов"
-        },
         {
           "id": "daVxjR2",
           "url": "https://audius.co/Astello/девять-кругов-1"
@@ -2716,19 +2322,15 @@
       "catalog_id": "CHD-0110",
       "catalog_file": "Дикий прогрев.mp3",
       "catalog_seconds": 176.42,
-      "audius_id": "KbbjOoy",
+      "audius_id": "KK6YP0r",
       "audius_title": "Дикий прогрев",
       "audius_seconds": 176,
-      "audius_url": "https://audius.co/Durachok/дикий-прогрев",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/дикий-прогрев",
+      "source_handle": "astello",
       "delta_seconds": 0.42,
       "original_file_cid": "baeaaaiqsebggqndzpgdhm3jhdx6ioogejzibrlien6u2577wyqybuyivnr66u",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "KbbjOoy",
-          "url": "https://audius.co/Durachok/дикий-прогрев"
-        },
         {
           "id": "Ya0PqJJ",
           "url": "https://audius.co/Astello/дикий-прогрев-1"
@@ -2743,19 +2345,15 @@
       "catalog_id": "CHD-0111",
       "catalog_file": "Димачка вернулся 1(топ).mp3",
       "catalog_seconds": 225.0,
-      "audius_id": "GYwbMdG",
+      "audius_id": "V50qEda",
       "audius_title": "Димачка вернулся 1(топ)",
       "audius_seconds": 225,
-      "audius_url": "https://audius.co/Durachok/димачка-вернулся-1топ",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/димачка-вернулся-1топ",
+      "source_handle": "astello",
       "delta_seconds": 0.0,
       "original_file_cid": "baeaaaiqsecdlqvcdoxtftlvbbnihi2r6kwkkqe73rmbgzuumt4y2w4zsiewo6",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "GYwbMdG",
-          "url": "https://audius.co/Durachok/димачка-вернулся-1топ"
-        },
         {
           "id": "V5jpkRP",
           "url": "https://audius.co/Astello/димачка-вернулся-1топ-1"
@@ -2770,19 +2368,15 @@
       "catalog_id": "CHD-0112",
       "catalog_file": "ДР Денису.mp3",
       "catalog_seconds": 187.7,
-      "audius_id": "amjyMXr",
+      "audius_id": "3JBK3Qq",
       "audius_title": "ДР Денису",
       "audius_seconds": 187,
-      "audius_url": "https://audius.co/Durachok/др-денису",
-      "source_handle": "durachok",
+      "audius_url": "https://audius.co/Astello/др-денису",
+      "source_handle": "astello",
       "delta_seconds": 0.7,
       "original_file_cid": "baeaaaiqseat6326gbu3q6qg35po5b3mrumtchw7flc5mrts3xe6gxpewitdke",
-      "action": "already_present",
+      "action": "replace",
       "equivalent_uploads": [
-        {
-          "id": "amjyMXr",
-          "url": "https://audius.co/Durachok/др-денису"
-        },
         {
           "id": "3JBK3Qq",
           "url": "https://audius.co/Astello/др-денису"
@@ -2800,7 +2394,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.0,
       "original_file_cid": "baeaaaiqsedgjfmz4ghcqpiughgyiqh354sfhdxpcasl5c3jdbohu6x6ubuplc",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "9po6MEw",
@@ -2823,7 +2417,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.02,
       "original_file_cid": "baeaaaiqsebttvtztlmj6hs3xhzqww7ljvf5a2iyqrhumw4lgx5p3qwy75q6lc",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "Qxr2Z7W",
@@ -2846,7 +2440,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.3,
       "original_file_cid": "baeaaaiqseciuqbsdz2q2gebjheyv32bzvxbweqj56p6kob4inwnwbxcpuvpcq",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "yGa2ypX",
@@ -2865,7 +2459,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.62,
       "original_file_cid": "baeaaaiqsebvplj4qhrlcmkmchjzlogl75v77ywief76trbkwdysak3msnecdg",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "kmY0P7V",
@@ -2888,7 +2482,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.66,
       "original_file_cid": "baeaaaiqsebfoa5baj6byimmcz64fwl5wmbqe5pmupqxcbfj57qt5n2h2vqjho",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "9k5XaZ2",
@@ -2907,7 +2501,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.52,
       "original_file_cid": "baeaaaiqsedvwkwqewj62uw7tsdqlhz5hmdqvcxxor7txcjib4hs4vxpjxmj5o",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "2d82vqp",
@@ -2930,7 +2524,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.34,
       "original_file_cid": "baeaaaiqseazy2xni3chptjv4m2wq5ymflyc2stbtca72w5wacravpnh4iii4g",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "NWAB5p",
@@ -2949,7 +2543,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.64,
       "original_file_cid": "baeaaaiqsedywrm2fdknqukcszwmerkqjkd5f5m7uhgttvsytfcoye6gijv2q6",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "GQb5b1a",
@@ -2968,7 +2562,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.49,
       "original_file_cid": "baeaaaiqsedknptq5xzkmlfe2gd3vdueoaz52nlivyo4geqqlwrwg54gj5f3uo",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "5x9E157",
@@ -2991,7 +2585,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.04,
       "original_file_cid": "baeaaaiqseboaihzrr77kxyplvthsvp7mvwunor46sbxipxwt4wxbjf3sowxam",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "q76bEoB",
@@ -3014,7 +2608,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.24,
       "original_file_cid": "baeaaaiqseaen5pht4nvqb562llmrr4x7m236dcdt4wpeex2v6xhk7f2biitde",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "J7YagJ6",
@@ -3037,7 +2631,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.8,
       "original_file_cid": "baeaaaiqsecffhfvemcyeo6vxeevp5gxiewuagtbcri5bllfagszx2qxlmnnrq",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "PWqKg35",
@@ -3083,7 +2677,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.85,
       "original_file_cid": "baeaaaiqsecxztufuy5kg3kzwd7pallhhkgc277zo7x67mhhk53yus4agvbau6",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "6RO13jQ",
@@ -3102,7 +2696,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.42,
       "original_file_cid": "baeaaaiqsedh73sownae2dy3tajetchf4zdfckz7tn3qxrfpmhmsbxonyowwds",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "m7P27dv",
@@ -3121,7 +2715,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.18,
       "original_file_cid": "baeaaaiqsebpoq5mxtf4hw2zd3bgm6qxu6dhbp43fvjy35ycj35pr3ma3lspi4",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "226P5Z6",
@@ -3144,7 +2738,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.24,
       "original_file_cid": "baeaaaiqseb3ss24wdawfnjzwxg345eyyqip3bmy64cr767anhkwwb4oj7oqbm",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "4Ap6Kpr",
@@ -3167,7 +2761,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.02,
       "original_file_cid": "baeaaaiqseakdhlwmoeh24zw433oyyitdehct6xjad34diy72g2qo3gqscukcg",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "0RGrrJK",
@@ -3190,7 +2784,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqseas2turrxa4wlhkg4qyayxvmlli77d2igarfksh2cozxe67hbb7sq",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "514qlv7",
@@ -3209,7 +2803,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.06,
       "original_file_cid": "baeaaaiqsedl6qtzzt6zf5lwtfuq3jebzxluhen5pa5lg3prc3ltukzmbwsx7m",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "AlKl5lq",
@@ -3232,7 +2826,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.440907,
       "original_file_cid": "baeaaaiqsectjte6keydppttjlnn3isvtbyyvonk5ws4ywkby62mar2cupch7u",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "W0XpoAB",
@@ -3251,7 +2845,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.837188,
       "original_file_cid": "baeaaaiqseanmmqxmnsdgbznaawpfijnlnc2shlw2m3h62yfoyroppvi34f55g",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "wPYxwk1",
@@ -3270,7 +2864,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.61,
       "original_file_cid": "baeaaaiqsed3qb6dtkcasgztkaqcjswsxlqmziesh4dsbvi6h336ym6dpv6ifq",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "GgZk4qa",
@@ -3289,7 +2883,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.75,
       "original_file_cid": "baeaaaiqsecylx63ytn5rqnzm63cmqt7cijxb36qoytumj6qspjhzl6vv5qmi6",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "VKwJXON",
@@ -3312,7 +2906,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.59,
       "original_file_cid": "baeaaaiqsedz2mxivivi5sipykrang3abwben75wesjvphd5rc7qj54npscnzm",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "xrRPq2",
@@ -3331,7 +2925,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.17,
       "original_file_cid": "baeaaaiqseap26eakfukjwgn5aax6ebk4rqopv3ieiehhmaevb6qmiqupy5unk",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "rbxElKQ",
@@ -3350,7 +2944,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.58,
       "original_file_cid": "baeaaaiqseb64hxsek47ajqisjujh4t2c4vvgjp5yfnw677upfdzppowhuwb4q",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "ZZ7zNqQ",
@@ -3369,7 +2963,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.85,
       "original_file_cid": "baeaaaiqsebntskg4phv67wogww4aaal2tuninorl2hf6kpd4v7n4u3jdb565i",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "j4aRzr1",
@@ -3388,7 +2982,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.66,
       "original_file_cid": "baeaaaiqseba3a4dvj4cy6hqhbcrme5ru46r6qqenuwhnhr3yhdq5t6emcnt6u",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "oYgBlK7",
@@ -3407,7 +3001,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqseasvsk3ogvqyhadfyt35le6bm2w7mcn26srib562er3xrhznjgvms",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "P9jZYwN",
@@ -3426,7 +3020,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.22,
       "original_file_cid": "baeaaaiqseamxvu3aw324bmzhqhtjnb37d7xzhslw6fi4n6zqm65p6crnwymac",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "b5vvxAW",
@@ -3445,7 +3039,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.02,
       "original_file_cid": "baeaaaiqseaury2hvd2wgfxcfrd77jawwboqf377scstjhzxsdaq4wotyxgero",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "l4Xo8Zl",
@@ -3464,7 +3058,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.78,
       "original_file_cid": "baeaaaiqsedveb4xyz254bji4bpbtoslwfrpywkokzceq4g3dmbnelvdlepbvg",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "dWGW114",
@@ -3483,7 +3077,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.02,
       "original_file_cid": "baeaaaiqsecp25h3bc53m6hnq4vpveawhmbz6ableweyr2oxnycy6ewnxphqug",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "0Rmw4o2",
@@ -3502,7 +3096,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.99,
       "original_file_cid": "baeaaaiqseaza3ajm5vbjkourilav7tbyl272enywq64xbvu5kdbnqng5lhwgw",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "Py7QMk",
@@ -3521,7 +3115,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.710295,
       "original_file_cid": "baeaaaiqseb4obnc3dfu2ozyywyyza6fit434k7reqzbbmjykpdbwskwv75dyw",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "vJBXAWz",
@@ -3540,7 +3134,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.35,
       "original_file_cid": "baeaaaiqsedovkdzv54qtqg3n5vlhdgd7swqppfb3sin57r47u6i7mztgzp5lc",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "KKmX3Y9",
@@ -3559,7 +3153,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.56,
       "original_file_cid": "baeaaaiqseaplnxl3hdc3rrgg7oy57zxqn32v6nh3j7k2vhrzze66x6lt5fztc",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "wyB6d35",
@@ -3578,7 +3172,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.56,
       "original_file_cid": "baeaaaiqsedrmzhibjodxgczua3vuo3odei4o2tb3u7faay3fwn42jbinvaxee",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "9Pgr1Q0",
@@ -3597,7 +3191,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.58,
       "original_file_cid": "baeaaaiqsecqtrismomemhcbnaihjv6ytj4rhfajhkrwhep5s6k3h2z73zl3l4",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "W6dYj39",
@@ -3616,7 +3210,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.07,
       "original_file_cid": "baeaaaiqsecf7btkhnis6albwh3q5ba7dqrn45xb42o4ievh3e6dzhswjwgusq",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "wGxX79W",
@@ -3635,7 +3229,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.19,
       "original_file_cid": "baeaaaiqsec5vsabvd3uhpek5r5ny6gmjdmyfh2pptty6g6mjzskulg3hzckj4",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "0Oko0oK",
@@ -3654,7 +3248,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.37,
       "original_file_cid": "baeaaaiqseaff2ll57mzy2ieow6bqt64nvm5pdri3hthtk5ppcp2b6kk324tre",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "OWW21aV",
@@ -3673,7 +3267,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.52,
       "original_file_cid": "baeaaaiqsecueifjnicyw4gfw6jf5qutiki5lv6lcrcky5wytbxz5pqpudmsdm",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "44N7Okj",
@@ -3692,7 +3286,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.23,
       "original_file_cid": "baeaaaiqsedwku5szf4s5hi5qhubfpjxdevubkcdslren7ohwmdpjwo2uut4lw",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "mZZ6A",
@@ -3711,7 +3305,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.55,
       "original_file_cid": "baeaaaiqseap75tkbtspbumucip3odpvcehq6by4nqzxnijgfxaqnxhbp6rpt4",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "WEZbXro",
@@ -3730,7 +3324,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.36,
       "original_file_cid": "baeaaaiqseavvmfkhnlpqpgy2kxaaci65qvtuv7evqj5t4er6z2tbgyppcdo2u",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "7OBMwMP",
@@ -3749,7 +3343,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.95,
       "original_file_cid": "baeaaaiqsebmtmctdqpzc3q2bsimilqjc6o6u5yubgaua4zskbi3bpnlhy6dx4",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "Kz0xxb9",
@@ -3768,7 +3362,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.23,
       "original_file_cid": "baeaaaiqsedp65rfn4tue2dw3rtlwfegktenydfp2zqdrhueb5y6i63gd4hkh4",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "vgKJYZV",
@@ -3787,7 +3381,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.03,
       "original_file_cid": "baeaaaiqsed4oejdaqrwzwtkqh5it5khjlg24buikvke67wm53shwfamp4cegi",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "KdwV7j2",
@@ -3806,7 +3400,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.78,
       "original_file_cid": "baeaaaiqsec457spwywvfmkyzzsbwuljqjmap4r3je5q3qz7bxk22uz62uzae4",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "M2G26r9",
@@ -3825,7 +3419,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.73,
       "original_file_cid": "baeaaaiqsedoh56testyxtdqliwzrrpiwuelukzd3rgm2ndwv7ulvnnoailplk",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "yyyGR1Y",
@@ -3844,7 +3438,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.88,
       "original_file_cid": "baeaaaiqsecr7vqwmgni2ckng2yj6ds4rk3mgzuxv5f2p2ika7qxm7h3ljm6s2",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "AQJBr0k",
@@ -3863,7 +3457,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqsed3oqxk4q4jcbq76ulyul2azjmt6kmag3t5cyjw6xjgfqusguoufi",
-      "action": "add",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "g48GblW",
