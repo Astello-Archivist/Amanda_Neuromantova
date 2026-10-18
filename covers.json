@@ -510,6 +510,34 @@
       "picture_type": 0,
       "mime": "image/jpeg",
       "sha256": "354f1a1216f961398c06f05b89fe2ab3a0812a8f685b9c39a0d6a7a133792b8a"
+    },
+    {
+      "track_id": "CHD-0167",
+      "path": "covers/CHD-0167-1.jpg",
+      "picture_type": 3,
+      "mime": "image/jpeg",
+      "sha256": "044b39945fa303c95b29ee2495b5969c343f26dabbecf648c12d49fd46bacf32"
+    },
+    {
+      "track_id": "CHD-0168",
+      "path": "covers/CHD-0168-1.jpg",
+      "picture_type": 3,
+      "mime": "image/jpeg",
+      "sha256": "9ee0af067cf65a3e0868f321592ae12e5be532f1f1cd2458dd3dcc13b64a4ff6"
+    },
+    {
+      "track_id": "CHD-0169",
+      "path": "covers/CHD-0169-1.jpg",
+      "picture_type": 3,
+      "mime": "image/jpeg",
+      "sha256": "e0b3ebe39a63bd92400c3d145f912c61d715fb3183f8f011d6a482c9ab0e736e"
+    },
+    {
+      "track_id": "CHD-0170",
+      "path": "covers/CHD-0170-1.jpg",
+      "picture_type": 3,
+      "mime": "image/jpeg",
+      "sha256": "7cac13fdea8fa34bd609dcc42fb8f8211f86fc0971b0b1a92b64702438138abb"
     }
   ],
   "errors": []

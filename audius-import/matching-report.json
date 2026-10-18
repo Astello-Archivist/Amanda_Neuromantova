@@ -8,26 +8,28 @@
       "handle": "durachok",
       "url": "https://audius.co/durachok",
       "public_tracks": 102,
-      "selected_links": 0
+      "selected_links": 0,
+      "retrieved_at": "2026-10-13T21:17:07.877985+03:00"
     },
     {
       "handle": "astello",
       "url": "https://audius.co/astello",
-      "public_tracks": 217,
-      "selected_links": 166
+      "public_tracks": 222,
+      "selected_links": 170,
+      "retrieved_at": "2026-10-18T14:15:06.174662+03:00"
     }
   ],
-  "catalog_tracks": 166,
-  "audius_tracks": 319,
-  "checked_at": "2026-10-13T21:31:02.890590+03:00",
+  "catalog_tracks": 170,
+  "audius_tracks": 324,
+  "checked_at": "2026-10-18T14:15:06.174662+03:00",
   "duration_tolerance_seconds": 1.1,
   "applied": true,
-  "added_links": 0,
-  "replaced_links": 102,
+  "added_links": 4,
+  "replaced_links": 0,
   "preferred_profile": "astello",
-  "already_linked": 64,
-  "catalog_audius_links": 166,
-  "confident_matches": 166,
+  "already_linked": 166,
+  "catalog_audius_links": 170,
+  "confident_matches": 170,
   "review_count": 0,
   "duration_corrections": [
     {
@@ -324,7 +326,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqsebi4cngp7x7lsrmtxdo6fvarxqqxlby4mzt64e3nrdm3hrz4dgsig",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "bdzb6BX",
@@ -343,7 +345,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.7,
       "original_file_cid": "baeaaaiqseb2f5tqr6dtfo52ddzexouzkatqqyem6p2ifjwijqn5gj6btt2q7c",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "8PRRyyJ",
@@ -362,7 +364,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.51,
       "original_file_cid": "baeaaaiqsech32rhzrf53e3nf4nqet2wu264plozlgrc2fkre45xfr37xcwwxi",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "B2dJxkJ",
@@ -381,7 +383,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.04,
       "original_file_cid": "baeaaaiqsecwxy4supq6tv5ff5c2ftz2tvsin4yhsduqf3cooscz6f6zxjg2xe",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "gvxmjRx",
@@ -404,7 +406,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.83,
       "original_file_cid": "baeaaaiqsebrkeb73pnmcunmqi4sglgy3ktvf2dop32yujjbbksbmg32wder5e",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "KzWJlGz",
@@ -423,7 +425,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.4,
       "original_file_cid": "baeaaaiqsec2uwsripthflehw3ebshz37jiqqs6wbjai57ytfycizhr3i33scc",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "gY0Br5d",
@@ -446,7 +448,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqseba3ayvvx4ncoxg4yo37wqafsg6cyc3gi4mxmmc5vxclcgrmnuulm",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "5zVYP9V",
@@ -465,7 +467,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.59,
       "original_file_cid": "baeaaaiqsedzlkkxboxktbprft5f7d4dhthfrsqdcdjlvfswjpnfg7wo7r3wdk",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "lpAxZ1N",
@@ -484,7 +486,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.77,
       "original_file_cid": "baeaaaiqsecrhnwanljgtol7q5imfxrvqbo2yiy32nq63ochf3c7yman6biwmy",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "0OBl4V4",
@@ -503,7 +505,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.57,
       "original_file_cid": "baeaaaiqseauzeod3ryfe6aumgfpy6futpxlx4k2yvgjtliocyxtvuuaqdcolc",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "dGw5BrM",
@@ -522,8 +524,12 @@
       "source_handle": "astello",
       "delta_seconds": 0.57,
       "original_file_cid": "baeaaaiqsebms4d3enstaf34wygeza3wt2n3fupyczcx475zmtmvnndk5ilwpy",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
+        {
+          "id": "51X1ddX",
+          "url": "https://audius.co/Astello/greywick-hill-мэрри-хоуп-1"
+        },
         {
           "id": "Xl5Kxo7",
           "url": "https://audius.co/Astello/greywick-hill-мэрри-хоуп"
@@ -541,7 +547,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.06,
       "original_file_cid": "baeaaaiqseafm36jqp6tfxrc7ydiyyft563fmxqhyiql424npqc5a47fuwdvya",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "WQ25E99",
@@ -564,7 +570,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqseawgzzkxylelekjqh4jhrwivj32jijlf3xwjioxnl25owo4bvi3ns",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "WYW5xb9",
@@ -583,7 +589,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.3,
       "original_file_cid": "baeaaaiqsedd7dtmuflnillvxb7qw26twsgreslowrl5q3g25itsdrarihmubm",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "g9ojB0d",
@@ -602,7 +608,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.49,
       "original_file_cid": "baeaaaiqsecnd7fbdbb4qteduqhwdun277ktcd43ouil3d6hnfufmk25k5d4by",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "5Q8X7PJ",
@@ -621,7 +627,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.69,
       "original_file_cid": "baeaaaiqsebtpck2apiirquywb5xm76mglqlwkctm75g4tmput3uz3av6vdtbo",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "pGVkQQK",
@@ -640,7 +646,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.24,
       "original_file_cid": "baeaaaiqseadkfzvdzyycux54dtphqzgepijima6bpu2vbh4fftqkb6cq3n4la",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "y87bEoY",
@@ -663,7 +669,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.5,
       "original_file_cid": "baeaaaiqsecqmkcionezdwzxti3deu3usxq2frtzz55vo6dhm55dlufdiutcbs",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "N6YwEqY",
@@ -682,7 +688,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.33,
       "original_file_cid": "baeaaaiqseaj4gbjwcwkafi3oq66ziuwuzq6ktggwgt3dxr6jt67j6fs7leoc4",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "lWGqxOl",
@@ -701,7 +707,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.85,
       "original_file_cid": "baeaaaiqsed7bfjclpf2henzelgnlxbgicxdxqqqiq6aoeqhrxmnjicp2ro7dq",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "7GYJBPP",
@@ -720,7 +726,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.06,
       "original_file_cid": "baeaaaiqsebwzb7ioy2hndz2ltstcsetartx7kja67glzwjptdkf4rqqmf4wmk",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "Rxp7Vzw",
@@ -739,7 +745,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.12,
       "original_file_cid": "baeaaaiqsecrltc7upziizyy5njs6m6usmjaabjlvs3a3yes7rljyhsaun5o7g",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "NljvXw0",
@@ -762,7 +768,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.59,
       "original_file_cid": "baeaaaiqsedgc4icuet77ig7omfktrxqpr6hmmjmacmlfdvpj5o4bhwfwzoong",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "Mpw6pJQ",
@@ -785,7 +791,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.74,
       "original_file_cid": "baeaaaiqsebjwsn2mrsasoq2bmyxls2xmghbto6g5lig3xvplr27z32a5z5v3y",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "E0wxRlR",
@@ -804,7 +810,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.77,
       "original_file_cid": "baeaaaiqsecrhnwanljgtol7q5imfxrvqbo2yiy32nq63ochf3c7yman6biwmy",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "AM19G0R",
@@ -823,7 +829,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.07,
       "original_file_cid": "baeaaaiqseb4oumefq67e56zkjjjocug6rhjtmvf6fzr3m2o7ucsicxpxhllla",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "6Qo4GE",
@@ -846,7 +852,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.89,
       "original_file_cid": "baeaaaiqsebnveodspkpx4aifc5m57yu2zsoxd3v45nwqvozuji5u5y36tbym6",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "vZ986aK",
@@ -865,7 +871,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqsedldu5pkbdvv3ehxbgiyu3gbqlcm2ajijv6mj6wkfcvwvraf7mdgg",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "5KBarg7",
@@ -884,7 +890,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.18,
       "original_file_cid": "baeaaaiqsebrcj3mx4ldk4je2hfy6zs3ds4rridsj3euvwkqykpa3fchxtwh3e",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "4AzG310",
@@ -903,7 +909,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.54,
       "original_file_cid": "baeaaaiqsedw6wbzpvkkwxrxslc2g2dtl3l6ccht6jgheezoonm7wybqszfm5w",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "KVvNRPz",
@@ -922,7 +928,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.7,
       "original_file_cid": "baeaaaiqsed4vb6prvlhiqaj7hymsl565hityjvyexaimtt4ti2deaunqfpfc6",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "73pj95W",
@@ -941,7 +947,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.22,
       "original_file_cid": "baeaaaiqseaigvqx2dbfpa2oy3gj3wvihggrnah23lu5pq3rtjlf5ml7ew6ynq",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "6Mk07xE",
@@ -960,7 +966,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.02,
       "original_file_cid": "baeaaaiqsebdlbf5hxffecrjclxzivwflwu7ql2rtxarkineaewmhbyf4tp3dk",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "BKojaY9",
@@ -979,7 +985,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.14,
       "original_file_cid": "baeaaaiqseacpaqoo37wrwyav5oxuxqlj3dwhjxkepzy5chp536uynmht2fmzu",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "Mg8pa7x",
@@ -998,7 +1004,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqsebwdxsepqjanycnqwlsnltey4rpe52xyn4lqldz5tc6oolfnocvbg",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "AN9d0Vm",
@@ -1017,7 +1023,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.14,
       "original_file_cid": "baeaaaiqseczqlfgf3iwn3rj5a7prs6x4pypakicmzkigrdvslkjbiily5ykk4",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "J7Qd0rk",
@@ -1036,7 +1042,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.73,
       "original_file_cid": "baeaaaiqsecuz7e4w3urpat2slsc5pijbrpzmowyaxxsibtwspqhr3v7iw7zpq",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "WaVlz2o",
@@ -1055,7 +1061,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.58,
       "original_file_cid": "baeaaaiqsecd4aofim5csrm7gkgpswrdhwituqpmxddb5ng2d2252mcqzr63f6",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "WaO29qB",
@@ -1074,7 +1080,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.74,
       "original_file_cid": "baeaaaiqsedhiytwcgiqwnubblcikkuhclwkhekfnds3annra7c4tq42ulprgy",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "kZ2Ma4N",
@@ -1093,7 +1099,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqseb6aupr4bd6fgpyb7qicuehcloljlch4hjffa5rkvkz5h4up3y2kc",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "RGjzroz",
@@ -1112,7 +1118,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.89,
       "original_file_cid": "baeaaaiqseah2xhojuh6owykq75o6wqlb7zzy6uws4e6bxxpbsap7ugcmfhjr2",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "5dymM61",
@@ -1131,7 +1137,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.74,
       "original_file_cid": "baeaaaiqseaj3qqjcislvnkvsote4fciswhqm5fn3nsuer245gph5b3ni6qo5y",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "Q6gxAoB",
@@ -1150,7 +1156,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.29,
       "original_file_cid": "baeaaaiqseask34vp554vflx7vqk5zi2xwrlfgs42ji5blzvnr2ynfmouxl24k",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "4jBp6Vb",
@@ -1169,7 +1175,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.86,
       "original_file_cid": "baeaaaiqsecframykhilcef62kv7vnxrfsg3qoyzhuik4wa7lgwniq2yhwpaqa",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "lzbyEjw",
@@ -1188,7 +1194,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqseb7w7yvscflkqwnsrzqu45vfoemd6ph2ywou2g7ggvuyrdxu7fpaw",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "9OYjxMG",
@@ -1207,7 +1213,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.03,
       "original_file_cid": "baeaaaiqsed5wliczdsmf3ijpwvarhicg4w66qd23ounbibmrtjmxavnizj76q",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "aavbgYa",
@@ -1226,7 +1232,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.7,
       "original_file_cid": "baeaaaiqsec6bkvc4ozcib5chj73ltsgbg7pfpinjqp5u2vpdtgeah7b5jymu4",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "9kYAWla",
@@ -1245,7 +1251,7 @@
       "source_handle": "astello",
       "delta_seconds": 1.02,
       "original_file_cid": "baeaaaiqsecwbksp7tjbo26onvbydykmaaagrwxhvkjxikcvlcwwhspnnvjol4",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "Q7pJ4b4",
@@ -1264,7 +1270,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqsediu6c2t5oltal35w4jt6m44nw3ksrf6jhe5clrzxg2mjgwzvp4vs",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "YKa15p7",
@@ -1283,7 +1289,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.5,
       "original_file_cid": "baeaaaiqsebz6jy43wnrpyzcxxl2jhell2whm5nqdfyjunnkzolmso3mpj46uu",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "ry9PdBz",
@@ -1302,7 +1308,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.86,
       "original_file_cid": "baeaaaiqseayap5f4b46meake3idnwkxwtzn4yzfkvhq7qzzagu3rcln3ala74",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "2lzKjqK",
@@ -1321,7 +1327,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.97,
       "original_file_cid": "baeaaaiqsedtfsrcu6g2q7amp5jsdzuobuf3qook5mq3kj4vux4a4zwtainwty",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "oPxp4g5",
@@ -1340,7 +1346,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.33,
       "original_file_cid": "baeaaaiqsecv4zfqf365reezz6ez63edziz4zf42dtndzfwepnwmlsav5dqu4e",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "lZXGNKK",
@@ -1359,7 +1365,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.5,
       "original_file_cid": "baeaaaiqseclusvki4nsjd32n63gvawg4vyakcz6rnux4gqeb6r547wqwugha4",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "bVrbZAM",
@@ -1378,7 +1384,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.5,
       "original_file_cid": "baeaaaiqsebmljyp3pnav573bo67hvdujlh3fhlj7legl44xyktco3dqyqnep6",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "pzmzM0m",
@@ -1397,7 +1403,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.03,
       "original_file_cid": "baeaaaiqseatngwcn6l2zfzzo6u5tosy3iwvidbcgxmsslmvajamfa375wvqqs",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "Q4wbE9G",
@@ -1420,7 +1426,7 @@
       "source_handle": "astello",
       "delta_seconds": 1.02,
       "original_file_cid": "baeaaaiqseaoaox6mos2yoesqrcymby2d3jxqv7s7em7jotl3i2sj5k2zn5g2q",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "jbgdlKM",
@@ -1439,7 +1445,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.47,
       "original_file_cid": "baeaaaiqsec4g5fi4xdg3lucfo2p7ocbyhzydxqpia5ms5ryzqmr4picgwei6m",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "9R2Qxxa",
@@ -1462,7 +1468,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.82,
       "original_file_cid": "baeaaaiqsedqsv2zczu6z6b44h4vtnjescamyrngk2d33gfemwxkgkv6c5dsfs",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "bK2xgJP",
@@ -1481,7 +1487,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.22,
       "original_file_cid": "baeaaaiqsedfxcwzo4auovexu7bgkbpt4ghu3mqunkasvknfyt7yg5c3ztddbo",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "zEZOaqp",
@@ -1500,7 +1506,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.94,
       "original_file_cid": "baeaaaiqseadngo5rt2f5iwq6hkifam254fevhhwwpua6l37nhvkfpfkm4tb7u",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "JZ0rP7Y",
@@ -1519,7 +1525,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.82,
       "original_file_cid": "baeaaaiqseak5uuumsxe7rbex44i3ug2e3saeeu7m63v6zs2wnewihyuhpwkve",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "YmRqyxm",
@@ -1538,7 +1544,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.58,
       "original_file_cid": "baeaaaiqsebxixyrucu5wakltq6vbzma2s2lq4au2irtakkgm6z4ewoli4ggke",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "1jpJpJW",
@@ -1561,7 +1567,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.96,
       "original_file_cid": "baeaaaiqsecm2or5hyqbegjdmajcgr423oa7vw4zdlzgvxoltq5qkthlq7zjoi",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "2Ro1wMd",
@@ -1584,7 +1590,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.75,
       "original_file_cid": "baeaaaiqseceafdnhbvi6xxb2ua3532n3ivl63xxdgdhs4qqniww36xp2vijfk",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "bbX09bb",
@@ -1603,7 +1609,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.52,
       "original_file_cid": "baeaaaiqsebmx7qdym5eu2tfwzvzyeia3iurtbm5lfttwchk6b6stkgierl5hi",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "g4ZaxKx",
@@ -1626,7 +1632,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.36,
       "original_file_cid": "baeaaaiqseb2sartqbat2um5y2ndewfput2te7n23rzguqce7jblhcrwvgefkk",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "BarZKdY",
@@ -1645,7 +1651,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.03,
       "original_file_cid": "baeaaaiqsecdmgk3ye6ekxnkcoxr5xouhysh5iyql7co4wxrnjzyqhtdaue5ro",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "abNKEQQ",
@@ -1668,7 +1674,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.62,
       "original_file_cid": "baeaaaiqsebhhof23rdlijue7rie62ol2fbc6q4mnecxkdnlu5hp6onhezhpe6",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "3o6wQ9Z",
@@ -1687,7 +1693,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.49,
       "original_file_cid": "baeaaaiqsedqnofanvrv7zphqv4usgzyrzg7oaih6vpqgk4tngnewu45ddutdg",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "oE3o267",
@@ -1706,7 +1712,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.06,
       "original_file_cid": "baeaaaiqsebpbkggqswwfrsxb3n756zixzae2sihxysffjn2av5q52ejmfwg5y",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "Ym63J0r",
@@ -1725,7 +1731,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.74,
       "original_file_cid": "baeaaaiqsecguleclp5o74orbh6lxvvkszaq4eiq4e5o2wip62alof47ig2m5g",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "3om76b0",
@@ -1744,7 +1750,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.64,
       "original_file_cid": "baeaaaiqseazskqoofsmhm77ibyq7nzucuzfb6saufwi325hmlvgh4lkxblyvc",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "ANVpYoK",
@@ -1767,7 +1773,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.43,
       "original_file_cid": "baeaaaiqseaynp4hn3etpn4kchrjxcbpdp2lpsaejil6bscohjpdrioicpdy72",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "aN347Nj",
@@ -1790,7 +1796,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.18,
       "original_file_cid": "baeaaaiqseb4jrwfbfrlsf5mivbtyndvmz2j564os5na6pc66vbzeaw2k4kf3s",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "Nlvrmw",
@@ -1813,7 +1819,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.58,
       "original_file_cid": "baeaaaiqseb3wzogj7vtpgudifkceas6lc3iox7lrr64hiozno2jwa7u3tupqy",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "Nkmzp3w",
@@ -1836,7 +1842,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.12,
       "original_file_cid": "baeaaaiqsebo35z7v4ptsgodd54qjnd5vl42jqs42z5azv55ogd6qlkhse4zd6",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "J7olzkZ",
@@ -1859,7 +1865,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.26,
       "original_file_cid": "baeaaaiqseaezik3gysgcivhy6fql2k2cqgm4isdkdau3dr7jmk6quqhijorzw",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "r9blxgg",
@@ -1882,7 +1888,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.23,
       "original_file_cid": "baeaaaiqsec2qvmngasqh2wyu3vkr4zzd4leex43qrsu2j3lq5ct46xypj4ole",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "jbjOYx1",
@@ -1905,7 +1911,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.39,
       "original_file_cid": "baeaaaiqsea2ltgoqhhuhgj66ivtb2fgkn2j7lrg2xv3sndkrjwrccxnl4l2zu",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "goWqMZ",
@@ -1928,7 +1934,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.8,
       "original_file_cid": "baeaaaiqsedg3ndtkkckqktep4uaavwrwgevbiukgmlqjbm4bfdyuvqxc5nynw",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "XPKy1GO",
@@ -1947,7 +1953,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.02,
       "original_file_cid": "baeaaaiqsedf4nkjvnh2hjooepyetzroptmpyhg6qxilyhbgc2s3ks4ppe2uha",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "GQGoRXx",
@@ -1970,7 +1976,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.99,
       "original_file_cid": "baeaaaiqseam7qhuynbhlwqufehcakgqtfuknhyhs7sm34dqdvs3rytoij5dpy",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "gW3Xx1v",
@@ -1993,7 +1999,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.22,
       "original_file_cid": "baeaaaiqsedim3i7j2c2sqavnfkpaxjivhic3ebneskgsy2f64zkjkgkrcnsoq",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "Oa1K64",
@@ -2016,7 +2022,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.5,
       "original_file_cid": "baeaaaiqseazeuxj5vmqvk5vcxw5cdipp2fp5rbmujbfsoizvnrrvdf3scahyu",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "P6X3jW5",
@@ -2039,7 +2045,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.58,
       "original_file_cid": "baeaaaiqsed65tsnzp65yqnokdtlht57mvunng73nm7bg7cqcpz2nhsncearyq",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "62d71NQ",
@@ -2062,7 +2068,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.66,
       "original_file_cid": "baeaaaiqseb3mq7agodlwn365rv4wbsv42dn6qv23ypljy3w4dw7u2f53flx4k",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "09q7K4",
@@ -2081,7 +2087,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.36,
       "original_file_cid": "baeaaaiqseavvmfkhnlpqpgy2kxaaci65qvtuv7evqj5t4er6z2tbgyppcdo2u",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "Nl0pk2x",
@@ -2104,7 +2110,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.58,
       "original_file_cid": "baeaaaiqsed65tsnzp65yqnokdtlht57mvunng73nm7bg7cqcpz2nhsncearyq",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "QboArov",
@@ -2127,7 +2133,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.98,
       "original_file_cid": "baeaaaiqsebftevc55bu4fk4s7j5nrt33yjzsgjxkjzgucjwrdzb5jlru7rjf4",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "YVw0gJv",
@@ -2150,7 +2156,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqsed6abgzrw3une24yfxjege2cz2n6cilwp7bguy5hu6ksmkdkmak5y",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "aNJylzQ",
@@ -2169,7 +2175,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.787483,
       "original_file_cid": "baeaaaiqsecofnbtraejlzpqvonkphvgrpvlcfqikhlidayhkvsxgdbuhoww5y",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "XBwJ9Ab",
@@ -2188,7 +2194,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.09,
       "original_file_cid": "baeaaaiqseaqorvwzxydtmyhwbvdicqgkn7yjfrhurvpka63orpiuw2pguzoak",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "XgVKdQy",
@@ -2207,7 +2213,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqseb5n5c7fou3q2nddeqvi7jjbnm6hvx3245cyyaczk3ob6pqckzckg",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "zE5EbQ5",
@@ -2226,7 +2232,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqsed4g7hxabrd3elx27kj5kjbdjjvmlhxqwyqielrbv73zxayvxw34o",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "QKlRKZV",
@@ -2245,7 +2251,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.34,
       "original_file_cid": "baeaaaiqsecazgk7dn7n6b2bikkv55ciov2q5pynk2cio4glfv3p4lhgwyu45u",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "GQk3MZx",
@@ -2264,7 +2270,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.05,
       "original_file_cid": "baeaaaiqseb2qm6222src6j4jjdpz5xcpo6szv4dhxa5o7axx4lqv4b27nzou6",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "Xk9boxO",
@@ -2283,7 +2289,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.94,
       "original_file_cid": "baeaaaiqseb5kies54ovyzsx4mkxtwh2hpyjrgckj3eqhpx7v5y6kef3iyvs4k",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "m6jQk82",
@@ -2306,7 +2312,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.2,
       "original_file_cid": "baeaaaiqseasurawyqoeewyautnscd7pkdbiteyfrmthmzjxvlffbaxmgrqulo",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "daVxjR2",
@@ -2329,7 +2335,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.42,
       "original_file_cid": "baeaaaiqsebggqndzpgdhm3jhdx6ioogejzibrlien6u2577wyqybuyivnr66u",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "Ya0PqJJ",
@@ -2352,7 +2358,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.0,
       "original_file_cid": "baeaaaiqsecdlqvcdoxtftlvbbnihi2r6kwkkqe73rmbgzuumt4y2w4zsiewo6",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "V5jpkRP",
@@ -2375,7 +2381,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.7,
       "original_file_cid": "baeaaaiqseat6326gbu3q6qg35po5b3mrumtchw7flc5mrts3xe6gxpewitdke",
-      "action": "replace",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "3JBK3Qq",
@@ -3464,7 +3470,93 @@
           "url": "https://audius.co/Astello/юлия-савичева-говновоз"
         }
       ]
+    },
+    {
+      "catalog_id": "CHD-0167",
+      "catalog_file": "Le Fondateur (Коричневая Длань).mp3",
+      "catalog_seconds": 236.832,
+      "audius_id": "8ZaJbmp",
+      "audius_title": "Le Fondateur (Коричневая Длань)",
+      "audius_seconds": 236,
+      "audius_url": "https://audius.co/Astello/le-fondateur-коричневая-длань",
+      "source_handle": "astello",
+      "delta_seconds": 0.832,
+      "original_file_cid": "baeaaaiqsecpg4pdetkzv4i42ajvj3r4yoy3qoog65lp3mkshrktfcwsqk7use",
+      "action": "added",
+      "equivalent_uploads": [
+        {
+          "id": "8ZaJbmp",
+          "url": "https://audius.co/Astello/le-fondateur-коричневая-длань"
+        }
+      ]
+    },
+    {
+      "catalog_id": "CHD-0168",
+      "catalog_file": "Борг - Фарта больше нет.mp3",
+      "catalog_seconds": 278.4,
+      "audius_id": "B5bOyKj",
+      "audius_title": "Борг - Фарта больше нет",
+      "audius_seconds": 278,
+      "audius_url": "https://audius.co/Astello/борг-фарта-больше-нет",
+      "source_handle": "astello",
+      "delta_seconds": 0.4,
+      "original_file_cid": "baeaaaiqsedk66edz7p5wyxk7ukaqylxmsz2gagmjtziir4pjogzawyn2azscc",
+      "action": "added",
+      "equivalent_uploads": [
+        {
+          "id": "B5bOyKj",
+          "url": "https://audius.co/Astello/борг-фарта-больше-нет"
+        }
+      ]
+    },
+    {
+      "catalog_id": "CHD-0169",
+      "catalog_file": "Тотем Убежал.mp3",
+      "catalog_seconds": 247.224,
+      "audius_id": "A9bbd9g",
+      "audius_title": "Тотем Убежал",
+      "audius_seconds": 247,
+      "audius_url": "https://audius.co/Astello/тотем-убежал",
+      "source_handle": "astello",
+      "delta_seconds": 0.224,
+      "original_file_cid": "baeaaaiqsec4zhdn2scp5m42p44osgg4rawsugv4oio6frhulnwvah7oylu6co",
+      "action": "added",
+      "equivalent_uploads": [
+        {
+          "id": "A9bbd9g",
+          "url": "https://audius.co/Astello/тотем-убежал"
+        }
+      ]
+    },
+    {
+      "catalog_id": "CHD-0170",
+      "catalog_file": "Фулгрим Великий Нос (Dragon's Dogma).mp3",
+      "catalog_seconds": 313.632,
+      "audius_id": "lvEop5w",
+      "audius_title": "Фулгрим Великий Нос (Dragon's Dogma)",
+      "audius_seconds": 313,
+      "audius_url": "https://audius.co/Astello/фулгрим-великий-нос-dragons-dogma",
+      "source_handle": "astello",
+      "delta_seconds": 0.632,
+      "original_file_cid": "baeaaaiqsedk45wpaoe7n5lh2atkghq7nd2xh276hrl35hytoc6mz734zoi2ao",
+      "action": "added",
+      "equivalent_uploads": [
+        {
+          "id": "lvEop5w",
+          "url": "https://audius.co/Astello/фулгрим-великий-нос-dragons-dogma"
+        }
+      ]
     }
   ],
-  "review": []
+  "review": [],
+  "import_audit": {
+    "date": "2026-10-18",
+    "new_catalog_ids": [
+      "CHD-0167",
+      "CHD-0168",
+      "CHD-0169",
+      "CHD-0170"
+    ],
+    "source": "MP3 embedded metadata, lyrics and cover art; original audio unchanged"
+  }
 }
