@@ -538,6 +538,13 @@
       "picture_type": 3,
       "mime": "image/jpeg",
       "sha256": "7cac13fdea8fa34bd609dcc42fb8f8211f86fc0971b0b1a92b64702438138abb"
+    },
+    {
+      "track_id": "CHD-0171",
+      "path": "covers/CHD-0171-1.jpg",
+      "picture_type": 3,
+      "mime": "image/jpeg",
+      "sha256": "14290650fa97aa8b98b5322b3ac5a6d3114b6a190b2b02f22e3b3583d8723806"
     }
   ],
   "errors": []

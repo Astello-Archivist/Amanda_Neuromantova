@@ -14,22 +14,22 @@
     {
       "handle": "astello",
       "url": "https://audius.co/astello",
-      "public_tracks": 222,
-      "selected_links": 170,
-      "retrieved_at": "2026-10-18T14:15:06.174662+03:00"
+      "public_tracks": 223,
+      "selected_links": 171,
+      "retrieved_at": "2026-10-18T15:33:49.928434+03:00"
     }
   ],
-  "catalog_tracks": 170,
-  "audius_tracks": 324,
-  "checked_at": "2026-10-18T14:15:06.174662+03:00",
+  "catalog_tracks": 171,
+  "audius_tracks": 325,
+  "checked_at": "2026-10-18T15:33:49.928434+03:00",
   "duration_tolerance_seconds": 1.1,
   "applied": true,
-  "added_links": 4,
+  "added_links": 1,
   "replaced_links": 0,
   "preferred_profile": "astello",
-  "already_linked": 166,
-  "catalog_audius_links": 170,
-  "confident_matches": 170,
+  "already_linked": 170,
+  "catalog_audius_links": 171,
+  "confident_matches": 171,
   "review_count": 0,
   "duration_corrections": [
     {
@@ -3482,7 +3482,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.832,
       "original_file_cid": "baeaaaiqsecpg4pdetkzv4i42ajvj3r4yoy3qoog65lp3mkshrktfcwsqk7use",
-      "action": "added",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "8ZaJbmp",
@@ -3501,7 +3501,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.4,
       "original_file_cid": "baeaaaiqsedk66edz7p5wyxk7ukaqylxmsz2gagmjtziir4pjogzawyn2azscc",
-      "action": "added",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "B5bOyKj",
@@ -3520,7 +3520,7 @@
       "source_handle": "astello",
       "delta_seconds": 0.224,
       "original_file_cid": "baeaaaiqsec4zhdn2scp5m42p44osgg4rawsugv4oio6frhulnwvah7oylu6co",
-      "action": "added",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "A9bbd9g",
@@ -3539,11 +3539,30 @@
       "source_handle": "astello",
       "delta_seconds": 0.632,
       "original_file_cid": "baeaaaiqsedk45wpaoe7n5lh2atkghq7nd2xh276hrl35hytoc6mz734zoi2ao",
-      "action": "added",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "lvEop5w",
           "url": "https://audius.co/Astello/фулгрим-великий-нос-dragons-dogma"
+        }
+      ]
+    },
+    {
+      "catalog_id": "CHD-0171",
+      "catalog_file": "Артас - это тебе не Лордерон.mp3",
+      "catalog_seconds": 267.552,
+      "audius_id": "70yBY47",
+      "audius_title": "Артас - это тебе не Лордерон",
+      "audius_seconds": 267,
+      "audius_url": "https://audius.co/Astello/артас-это-тебе-не-лордерон",
+      "source_handle": "astello",
+      "delta_seconds": 0.552,
+      "original_file_cid": "baeaaaiqseccbhuizuqcelk4awy733h267uxk5xtpnjmsoxvhhndsf36xit36i",
+      "action": "added",
+      "equivalent_uploads": [
+        {
+          "id": "70yBY47",
+          "url": "https://audius.co/Astello/артас-это-тебе-не-лордерон"
         }
       ]
     }
@@ -3552,10 +3571,7 @@
   "import_audit": {
     "date": "2026-10-18",
     "new_catalog_ids": [
-      "CHD-0167",
-      "CHD-0168",
-      "CHD-0169",
-      "CHD-0170"
+      "CHD-0171"
     ],
     "source": "MP3 embedded metadata, lyrics and cover art; original audio unchanged"
   }

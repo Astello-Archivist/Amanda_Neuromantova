@@ -13,7 +13,8 @@ const cultName=text=>String(text).replace(/(Ч[её]рн(?:ая|ой|ую|ою)\
 function el(tag,text,cls){const x=document.createElement(tag);if(text!==undefined)x.textContent=cultName(text);if(cls)x.className=cls;return x;}
 function fill(id,values){[...new Set(values)].sort((a,b)=>a.localeCompare(b,'ru')).forEach(v=>{const o=el('option',v);o.value=v;$(id).append(o);});}
 fill('artist',rows.map(artist));fill('genre',rows.flatMap(genres));fill('tag',rows.flatMap(tags));
-const trackCount=el('div');trackCount.append(el('strong',rows.length),document.createTextNode('треков'));$('stats').append(trackCount);
+const trackWord=n=>n%100>=11&&n%100<=14?'треков':n%10===1?'трек':n%10>=2&&n%10<=4?'трека':'треков';
+const trackCount=el('div');trackCount.append(el('strong',rows.length),document.createTextNode(trackWord(rows.length)));$('stats').append(trackCount);
 function artwork(r){const a=el('div',undefined,'art');const placeholder=()=>a.prepend(el('span','CH—D','fallback'));if(r.cover_path){const img=el('img');img.src=r.cover_path;img.alt='Обложка: '+title(r);img.loading='lazy';img.onerror=()=>{img.remove();placeholder();};a.append(img);}else placeholder();a.append(el('small',time(r.duration_seconds)));return a;}
 function chips(r){const box=el('div',undefined,'tags');[...new Set([...genres(r),...tags(r)])].forEach(t=>box.append(el('span',t)));return box;}
 function safeLink(url){try{const u=new URL(url);return ['https:','http:'].includes(u.protocol)?u.href:null;}catch{return null;}}
