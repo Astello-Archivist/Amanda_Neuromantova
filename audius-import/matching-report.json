@@ -14,22 +14,22 @@
     {
       "handle": "astello",
       "url": "https://audius.co/astello",
-      "public_tracks": 223,
-      "selected_links": 171,
-      "retrieved_at": "2026-10-18T15:33:49.928434+03:00"
+      "public_tracks": 224,
+      "selected_links": 172,
+      "retrieved_at": "2026-10-25T01:46:13.703012+03:00"
     }
   ],
-  "catalog_tracks": 171,
-  "audius_tracks": 325,
-  "checked_at": "2026-10-18T15:33:49.928434+03:00",
+  "catalog_tracks": 172,
+  "audius_tracks": 326,
+  "checked_at": "2026-10-25T01:46:13.703012+03:00",
   "duration_tolerance_seconds": 1.1,
   "applied": true,
   "added_links": 1,
   "replaced_links": 0,
   "preferred_profile": "astello",
-  "already_linked": 170,
-  "catalog_audius_links": 171,
-  "confident_matches": 171,
+  "already_linked": 171,
+  "catalog_audius_links": 172,
+  "confident_matches": 172,
   "review_count": 0,
   "duration_corrections": [
     {
@@ -3558,20 +3558,39 @@
       "source_handle": "astello",
       "delta_seconds": 0.552,
       "original_file_cid": "baeaaaiqseccbhuizuqcelk4awy733h267uxk5xtpnjmsoxvhhndsf36xit36i",
-      "action": "added",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "70yBY47",
           "url": "https://audius.co/Astello/артас-это-тебе-не-лордерон"
         }
       ]
+    },
+    {
+      "catalog_id": "CHD-0172",
+      "catalog_file": "Агонит - Ритуал.mp3",
+      "catalog_seconds": 251.184,
+      "audius_id": "G5PONgm",
+      "audius_title": "Агонит - Ритуал",
+      "audius_seconds": 251,
+      "audius_url": "https://audius.co/Astello/агонит-ритуал",
+      "source_handle": "astello",
+      "delta_seconds": 0.184,
+      "original_file_cid": "baeaaaiqseawusmpu56hamnskfvsixb3vcacguvw47cutukroefghqstfycejk",
+      "action": "added",
+      "equivalent_uploads": [
+        {
+          "id": "G5PONgm",
+          "url": "https://audius.co/Astello/агонит-ритуал"
+        }
+      ]
     }
   ],
   "review": [],
   "import_audit": {
-    "date": "2026-10-18",
+    "date": "2026-10-25",
     "new_catalog_ids": [
-      "CHD-0171"
+      "CHD-0172"
     ],
     "source": "MP3 embedded metadata, lyrics and cover art; original audio unchanged"
   }

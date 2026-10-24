@@ -824,5 +824,16 @@
     },
     "items": {},
     "named_animals": []
+  },
+  {
+    "id": "CHD-0172",
+    "source": "embedded_lyrics_reviewed",
+    "characters": {
+      "Агонит": " speech, distant bells]\nНиже земли.\nНиже молитв.\nМы слышим тебя.\nАгони́т.\n[Verse 1 — measured rhythmic delivery]\nТри стола. Могильный лёд.\nПод ребром печать живёт.\nАме"
+    },
+    "items": {
+      "Чёрное сердце": "eful voice, space between phrases]\nОсколки сферы. Зелёный туман.\nЧёрное сердце — для душ капкан.\nРуны впитались в холодный металл.\nВорон над склепом ночь разорвал.\nСкипетр в"
+    },
+    "named_animals": []
   }
 ]

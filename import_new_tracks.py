@@ -13,6 +13,11 @@ SOURCE=Path(r'D:\досуг\Ch-D_music_collection')
 INCOMING=SOURCE/'не сопоставлено'
 
 EDITS={
+ 'Агонит - Ритуал.mp3':{
+  'title':'Ритуал','artist':'Агонит','genre':'Вич-хаус','language':'Русский',
+  'characters':['Агонит'],'items':['Чёрное сердце'],
+  'style_note':'Жанр указан по авторскому заданию к этой песне; отдельный анализ звучания не проводился.',
+  'summary':'Ритуалы Черной Длани: три стола, печать под ребром, аметист и малахит, осколки сферы и чёрное сердце в скипетре.'},
  'Артас - это тебе не Лордерон.mp3':{
   'genre':'Мрачная электроника | Рэп','language':'Русский',
   'characters':['Артас','Борг','Аларак','Эдвархейд','Морверон','Генифер'],
@@ -41,7 +46,7 @@ EDITS={
 }
 ALIASES={'Кисик':['Киссик','Кисик'],'Эдвархейд':['Эдвархэйд','Эдвархейд','Эдвард Хейнд','Эдвард'],
          'Кит’икс':["Кит'икс"],'Туртлашка':['Туртлашки'],'Чёрный Алмаз':['Чёрного Алмаза'],
-         'Тотем Борга':['тотем']}
+         'Тотем Борга':['тотем'],'Агонит':['Агони́т','Агонит']}
 
 def dump(path,value):path.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 def tag(tags,key):return ' | '.join(str(x) for f in tags.getall(key) for x in getattr(f,'text',[]))
@@ -49,6 +54,7 @@ def tag(tags,key):return ' | '.join(str(x) for f in tags.getall(key) for x in ge
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--audit-name',default='new-tracks-20261018')
+    parser.add_argument('--file',type=Path,action='append',help='Import only this archived source file; repeat for several files')
     args=parser.parse_args()
     assert Path(args.audit_name).name==args.audit_name
     AUDIT=ROOT/'audius-import'/args.audit_name
@@ -65,7 +71,9 @@ def main():
     number=max(int(r['id'].split('-')[1]) for r in rows)+1
     evidence=json.loads((ROOT/'tag_evidence.json').read_text('utf-8'))
     changes=[];skipped=[]
-    for file in sorted(INCOMING.iterdir(),key=lambda f:f.name.casefold()):
+    selected=args.file if args.file else INCOMING.iterdir()
+    for file in sorted(selected,key=lambda f:f.name.casefold()):
+        assert file.resolve().is_relative_to(SOURCE.resolve()), 'Keep an archived copy in the music collection before importing'
         if file.suffix.lower()!='.mp3':continue
         digest=hashlib.sha256(file.read_bytes()).hexdigest()
         if digest in existing_hashes:
@@ -81,8 +89,9 @@ def main():
                    metadata_comment=' | '.join(str(f) for f in tags.getall('COMM')),duration_seconds=str(round(audio.info.length,6)),
                    bitrate_kbps=str(round(audio.info.bitrate/1000)),lyrics=lyrics)
         draft=EDITS[file.name]
+        row['title_draft']=draft.get('title',row['title_draft']);row['artist_draft']=draft.get('artist',row['artist_draft'])
         row.update(genre=draft['genre'],language=draft['language'],characters=' | '.join(draft['characters']),items=' | '.join(draft['items']))
-        row['notes']=draft['summary']+' Текст и обложка извлечены из файла. Стиль указан по авторским музыкальным пометкам в тексте; отдельный анализ звучания не проводился.'
+        row['notes']=draft['summary']+' Текст и обложка извлечены из файла. '+draft.get('style_note','Стиль указан по авторским музыкальным пометкам в тексте; отдельный анализ звучания не проводился.')
         proof={}
         for name in draft['characters']+draft['items']:
             match=next((m for alias in ALIASES.get(name,[name]) if (m:=re.search(re.escape(alias),lyrics,re.I))),None)
