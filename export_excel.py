@@ -1,6 +1,8 @@
 """Create a styled, sortable workbook from the catalog CSV."""
 from pathlib import Path
 from collections import Counter
+from datetime import datetime
+from zoneinfo import ZoneInfo
 import csv
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font, PatternFill, Alignment
@@ -56,7 +58,7 @@ def main():
                ('Жанр', 'genre', 25), ('Язык', 'language', 16), ('YouTube', 'youtube_url', 40),
                ('Google Drive', 'drive_url', 35), ('Audius', 'audius_url', 45), ('Длительность', '_time', 17),
                ('Обложка', '_cover', 25), ('Альбом', 'metadata_album', 28), ('Примечания', 'notes', 45),
-               ('Исходный файл', 'file', 48)]
+               ('Добавлен в каталог', 'added_at', 23), ('Исходный файл', 'file', 48)]
 
     def sheet(name, selected, fields, table_name):
         ws = wb.create_sheet(name)
@@ -87,6 +89,9 @@ def main():
                 if key == '_time':
                     c.value = float(r.get('duration_seconds') or 0)/86400
                     c.number_format = '[m]:ss'
+                elif key == 'added_at' and value:
+                    c.value = datetime.fromisoformat(value).astimezone(ZoneInfo('Europe/Moscow')).replace(tzinfo=None)
+                    c.number_format = 'dd.mm.yyyy hh:mm'
                 else:
                     if key == '_cover': value = 'Встроенная' if r['cover_path'] else 'Заглушка в MP4'
                     literal(c, value)
