@@ -552,6 +552,41 @@
       "picture_type": 3,
       "mime": "image/jpeg",
       "sha256": "28ddf561b2971f092fda93b3841acfe7c1e08ccb306b689aa1c654217ca6fd4e"
+    },
+    {
+      "track_id": "CHD-0173",
+      "path": "covers/CHD-0173-1.jpg",
+      "picture_type": 3,
+      "mime": "image/jpeg",
+      "sha256": "679cd36596bf243540082a9884d41a97be020dcf01c1ed92bd6dfdfb5a7eed3a"
+    },
+    {
+      "track_id": "CHD-0174",
+      "path": "covers/CHD-0174-1.jpg",
+      "picture_type": 3,
+      "mime": "image/jpeg",
+      "sha256": "dce8affafebac3a6a09824a052e485f93e53695018396c3d91b97d50f9d0ce58"
+    },
+    {
+      "track_id": "CHD-0175",
+      "path": "covers/CHD-0175-1.jpg",
+      "picture_type": 3,
+      "mime": "image/jpeg",
+      "sha256": "44a40a210dca18d98d0848438835a3db0bec4f5944a35da885634c3314efa4c1"
+    },
+    {
+      "track_id": "CHD-0176",
+      "path": "covers/CHD-0176-1.jpg",
+      "picture_type": 3,
+      "mime": "image/jpeg",
+      "sha256": "d271c0e4c56e5ef572bc8cbc1f2d8e41aa8005132ebc9baf8a8813fef803e66b"
+    },
+    {
+      "track_id": "CHD-0177",
+      "path": "covers/CHD-0177-1.jpg",
+      "picture_type": 3,
+      "mime": "image/jpeg",
+      "sha256": "8cb1378553975053cbca461f2dbbe2c696666724ac08b060ef5575ee5f933cc0"
     }
   ],
   "errors": []

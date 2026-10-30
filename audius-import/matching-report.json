@@ -14,23 +14,23 @@
     {
       "handle": "astello",
       "url": "https://audius.co/astello",
-      "public_tracks": 224,
-      "selected_links": 172,
-      "retrieved_at": "2026-10-25T01:46:13.703012+03:00"
+      "public_tracks": 226,
+      "selected_links": 174,
+      "retrieved_at": "2026-10-31T00:57:36.633710+03:00"
     }
   ],
-  "catalog_tracks": 172,
-  "audius_tracks": 326,
-  "checked_at": "2026-10-25T01:46:13.703012+03:00",
+  "catalog_tracks": 177,
+  "audius_tracks": 328,
+  "checked_at": "2026-10-31T00:57:36.633710+03:00",
   "duration_tolerance_seconds": 1.1,
   "applied": true,
-  "added_links": 1,
+  "added_links": 2,
   "replaced_links": 0,
   "preferred_profile": "astello",
-  "already_linked": 171,
-  "catalog_audius_links": 172,
-  "confident_matches": 172,
-  "review_count": 0,
+  "already_linked": 172,
+  "catalog_audius_links": 174,
+  "confident_matches": 174,
+  "review_count": 3,
   "duration_corrections": [
     {
       "id": "CHD-0006",
@@ -3577,20 +3577,83 @@
       "source_handle": "astello",
       "delta_seconds": 0.184,
       "original_file_cid": "baeaaaiqseawusmpu56hamnskfvsixb3vcacguvw47cutukroefghqstfycejk",
-      "action": "added",
+      "action": "already_present",
       "equivalent_uploads": [
         {
           "id": "G5PONgm",
           "url": "https://audius.co/Astello/агонит-ритуал"
         }
       ]
+    },
+    {
+      "catalog_id": "CHD-0174",
+      "catalog_file": "Вэя - Я ещё жива.mp3",
+      "catalog_seconds": 207.6,
+      "audius_id": "aby211Q",
+      "audius_title": "Вэя - Я ещё жива",
+      "audius_seconds": 207,
+      "audius_url": "https://audius.co/Astello/вэя-я-ещё-жива",
+      "source_handle": "astello",
+      "delta_seconds": 0.6,
+      "original_file_cid": "baeaaaiqsec2dh3oi2yi6rag6gnwl5hejmzxcupigrxp7avsnryansolfx3pto",
+      "action": "added",
+      "equivalent_uploads": [
+        {
+          "id": "aby211Q",
+          "url": "https://audius.co/Astello/вэя-я-ещё-жива"
+        }
+      ]
+    },
+    {
+      "catalog_id": "CHD-0175",
+      "catalog_file": "Кисик - Хлебушек в жиже.mp3",
+      "catalog_seconds": 259.464,
+      "audius_id": "bV17mpb",
+      "audius_title": "Кисик - Хлебушек в жиже",
+      "audius_seconds": 259,
+      "audius_url": "https://audius.co/Astello/кисик-хлебушек-в-жиже",
+      "source_handle": "astello",
+      "delta_seconds": 0.464,
+      "original_file_cid": "baeaaaiqsedwebxugnlj3e4tgja5ldxr4mgstosdylgsbpmodfyxvamnos2pfg",
+      "action": "added",
+      "equivalent_uploads": [
+        {
+          "id": "bV17mpb",
+          "url": "https://audius.co/Astello/кисик-хлебушек-в-жиже"
+        }
+      ]
     }
   ],
-  "review": [],
+  "review": [
+    {
+      "catalog_id": "CHD-0173",
+      "file": "Агонит - Восстань.mp3",
+      "reason": "no_name_and_duration_match"
+    },
+    {
+      "catalog_id": "CHD-0176",
+      "file": "Эд - Когда я вырасту.mp3",
+      "reason": "no_name_and_duration_match"
+    },
+    {
+      "catalog_id": "CHD-0177",
+      "file": "Эд - Я ЗВЕРЬ.mp3",
+      "reason": "no_name_and_duration_match"
+    }
+  ],
+  "unlinked_catalog_ids": [
+    "CHD-0173",
+    "CHD-0176",
+    "CHD-0177"
+  ],
   "import_audit": {
-    "date": "2026-10-25",
+    "date": "2026-10-31",
     "new_catalog_ids": [
-      "CHD-0172"
+      "CHD-0173",
+      "CHD-0174",
+      "CHD-0175",
+      "CHD-0176",
+      "CHD-0177"
     ],
     "source": "MP3 embedded metadata, lyrics and cover art; original audio unchanged"
   }

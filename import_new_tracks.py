@@ -13,6 +13,29 @@ SOURCE=Path(r'D:\досуг\Ch-D_music_collection')
 INCOMING=SOURCE/'не сопоставлено'
 
 EDITS={
+ 'Вэя - Я ещё жива.mp3':{
+  'artist':'Вэя','title':'Я ещё жива','genre':'Вич-хаус','language':'Русский',
+  'characters':['Вэя','Тимерион'],'title_tags':['Вэя'],'items':[],
+  'style_note':'Жанр указан по авторскому заданию к этой песне; отдельный анализ звучания не проводился.',
+  'summary':'Вэя вспоминает спасение из паутины и переживает кошмар об операционном столе, утрате голоса и чужих руках. В финале обращается к Тиму (Тимериону). Хирургический кошмар относится к песне и не объявляется установленным событием отчётов.'},
+ 'Кисик - Хлебушек в жиже.mp3':{
+  'artist':'Кисик','title':'Хлебушек в жиже','genre':'Болотный фанк | Дроун-хоп | Сладж','language':'Русский',
+  'characters':['Кисик','Борг','Агонит','Морверон'],'items':[],
+  'style_note':'Жанры указаны по авторскому заданию swamp sludge funk / experimental drone hop и музыкальным ремаркам; отдельный анализ звучания не проводился.',
+  'summary':'Компания идёт за железом на болота Valheim, но Кисик варит похлёбку из мха и угощает всех хлебом. Борг пытается умыться, Агонит спрашивает про суп, Морверон спорит с ожившим пнём, к ужину присоединяется драугр. Киссик в тексте и Кисик в названии объединены; именных животных не названо. Название и вариант «в жижу» сохранены из опубликованной записи, без подмены прежним черновиком «жижуля».'},
+ 'Агонит - Восстань.mp3':{
+  'artist':'Агонит','title':'Восстань','genre':'','language':'Русский',
+  'characters':['Агонит'],'items':[],
+  'style_note':'Жанр не указан в метаданных; отдельный анализ звучания не проводился.',
+  'summary':'Культисты зовут Агонита восстать, славят его бессмертие и собираются под таверной «Свинья и свисток». Текст связывает возвращение героя с ожиданием WoW Forever.'},
+ 'Эд - Когда я вырасту.mp3':{
+  'artist':'Эд','title':'Когда я вырасту','genre':'Рэп | Оркестровый хип-хоп','language':'Русский',
+  'characters':['Эд'],'items':[],
+  'summary':'Эд отвергает навязанный взрослый быт ради бесконечных квестов, прокачки и WoW Forever. Театральный разговор с голосом разума сменяется агрессивным игровым монологом. Эд сохранён под именем из песни; тождество с Эдвархейдом здесь не утверждается.'},
+ 'Эд - Я ЗВЕРЬ.mp3':{
+  'artist':'Эд','title':'Я ЗВЕРЬ','genre':'Рэп | Оркестровый хип-хоп','language':'Русский',
+  'characters':['Эд'],'items':[],
+  'summary':'Отдельная версия монолога Эда о взрослении, работе и выборе игрового мира: припев «Когда я вырасту — я стану зверем». Отличается от «Когда я вырасту» текстом, длительностью и SHA-256 и сохранена отдельной записью. Заголовок «Я ЗВЕРЬ» взят из имени файла, исходное название метаданных сохранено.'},
  'Агонит - Ритуал.mp3':{
   'title':'Ритуал','artist':'Агонит','genre':'Вич-хаус','language':'Русский',
   'characters':['Агонит'],'items':['Чёрное сердце'],
@@ -46,7 +69,8 @@ EDITS={
 }
 ALIASES={'Кисик':['Киссик','Кисик'],'Эдвархейд':['Эдвархэйд','Эдвархейд','Эдвард Хейнд','Эдвард'],
          'Кит’икс':["Кит'икс"],'Туртлашка':['Туртлашки'],'Чёрный Алмаз':['Чёрного Алмаза'],
-         'Тотем Борга':['тотем'],'Агонит':['Агони́т','Агонит']}
+         'Тотем Борга':['тотем'],'Агонит':['Агони́т','Агонит','AGONIT'],
+         'Тимерион':['Тимерион','Тимерий','Тим']}
 
 def dump(path,value):path.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 def tag(tags,key):return ' | '.join(str(x) for f in tags.getall(key) for x in getattr(f,'text',[]))
@@ -55,6 +79,7 @@ def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--audit-name',default='new-tracks-20261018')
     parser.add_argument('--file',type=Path,action='append',help='Import only this archived source file; repeat for several files')
+    parser.add_argument('--allow-unlinked',action='store_true',help='Allow reviewed local tracks without a verified Audius match; leave the URL empty')
     args=parser.parse_args()
     assert Path(args.audit_name).name==args.audit_name
     AUDIT=ROOT/'audius-import'/args.audit_name
@@ -95,6 +120,10 @@ def main():
         proof={}
         for name in draft['characters']+draft['items']:
             match=next((m for alias in ALIASES.get(name,[name]) if (m:=re.search(re.escape(alias),lyrics,re.I))),None)
+            if not match and name in draft.get('title_tags',[]):
+                assert any(alias.casefold() in (title+' '+file.name).casefold() for alias in ALIASES.get(name,[name]))
+                proof[name]='[Название и метаданные] '+title+' / '+file.name
+                continue
             assert match,(file.name,name)
             proof[name]=lyrics[max(0,match.start()-65):min(len(lyrics),match.end()+95)]
         # Lyrics describe people and a magical object, without a named animal.
@@ -111,17 +140,21 @@ def main():
             covers['images'].append({'track_id':row['id'],'path':relative,'picture_type':int(picture.type),'mime':picture.mime,'sha256':hashlib.sha256(picture.data).hexdigest()})
         row.update(cover_path=paths[0] if paths else '',cover_count=str(len(paths)),cover_paths=' | '.join(paths))
         candidates=[t for t in snapshot['data'] if catalog_names(row)&{normalized(t.get(k)) for k in ['title','orig_filename']} and t.get('is_available') and abs(audio.info.length-t['duration'])<=DURATION_TOLERANCE]
-        assert len(candidates)==1,(file.name,[(t['title'],t['duration']) for t in candidates])
-        remote=candidates[0];row['audius_url']='https://audius.co'+remote['permalink']
-        assert remote['user']['handle'].lower()=='astello'
+        assert len(candidates)==1 or (not candidates and args.allow_unlinked),(file.name,[(t['title'],t['duration']) for t in candidates])
+        remote=candidates[0] if candidates else None
+        if remote:
+            row['audius_url']='https://audius.co'+remote['permalink']
+            assert remote['user']['handle'].lower()=='astello'
+        else:
+            row['notes']+=' Проверенная ссылка Audius пока не найдена.'
         rows.append(row);existing_hashes[digest]=row
         evidence.append({'id':row['id'],'source':'embedded_lyrics_reviewed','characters':{n:proof[n] for n in draft['characters']},'items':{n:proof[n] for n in draft['items']},'named_animals':[]})
         metadata.append({'relative_path':row['relative_path'],'System.Title':title,'System.Music.Artist':[row['metadata_artist']],
                          'System.Music.AlbumTitle':row['metadata_album'],'System.Media.Duration':round(audio.info.length*10000000),
                          'System.Audio.EncodingBitrate':audio.info.bitrate,'System.Audio.SampleRate':audio.info.sample_rate,
                          'System.Audio.ChannelCount':audio.info.channels,'System.Music.Lyrics':lyrics,'extractor':'mutagen'})
-        changes.append({'id':row['id'],'file':file.name,'sha256':digest,'added_at':row['added_at'],'duration_seconds':audio.info.length,'audius_seconds':remote['duration'],
-                        'delta_seconds':round(abs(audio.info.length-remote['duration']),6),'audius_url':row['audius_url'],'covers':paths,'tags':proof})
+        changes.append({'id':row['id'],'file':file.name,'sha256':digest,'added_at':row['added_at'],'duration_seconds':audio.info.length,'audius_seconds':remote['duration'] if remote else None,
+                        'delta_seconds':round(abs(audio.info.length-remote['duration']),6) if remote else None,'audius_url':row['audius_url'],'covers':paths,'tags':proof})
     # Resolve local paths after the owner reorganized the source folders.
     by_name=defaultdict(list)
     for file in SOURCE.rglob('*'):

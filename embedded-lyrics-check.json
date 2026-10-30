@@ -1,5 +1,5 @@
 {
-  "tracks_checked": 172,
+  "tracks_checked": 177,
   "lyrics_found": [
     "CHD-0005",
     "CHD-0008",
@@ -73,7 +73,12 @@
     "CHD-0169",
     "CHD-0170",
     "CHD-0171",
-    "CHD-0172"
+    "CHD-0172",
+    "CHD-0173",
+    "CHD-0174",
+    "CHD-0175",
+    "CHD-0176",
+    "CHD-0177"
   ],
   "errors": []
 }
